@@ -16,12 +16,12 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 # 📰 News
 
-- **[2025.6]**:  Our paper *"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"* was accepted by **[TACO]**.
-- **[2025.5]**:  Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training. <!--I will join [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo for a two-year research collaboration.-->
-- **[2025.2]**:  Visited [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo, Japan, as a short-term research scholar.
-- **[2025.1]**:  Our paper *"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"* was accepted by **[GPGPU’25](https://dl.acm.org/doi/10.1145/3725798.3725807)**.  
-- **[2024.8]:** Our paper *"An Optimized GPU Implementation for GIST Descriptor"* was accepted by **[TACO](https://dl.acm.org/doi/10.1145/3689339)**.  
-- **[2023.3]**: Our paper *"Multi-directional Sobel operator kernel on GPUs"* was accepted by **[JPDC](https://www.sciencedirect.com/science/article/pii/S0743731523000400)**.  
+- 2025.6 Our paper *"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"* was accepted by **[TACO]**.
+- 2025.5 Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training. <!--I will join [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo for a two-year research collaboration.-->
+- 2025.2 Visited [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo, Japan, as a short-term research scholar.
+- 2025.1 Our paper *"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"* was accepted by **[GPGPU’25](https://dl.acm.org/doi/10.1145/3725798.3725807)**.  
+- 2024.8 Our paper *"An Optimized GPU Implementation for GIST Descriptor"* was accepted by **[TACO](https://dl.acm.org/doi/10.1145/3689339)**.  
+- 2023.3 Our paper *"Multi-directional Sobel operator kernel on GPUs"* was accepted by **[JPDC](https://www.sciencedirect.com/science/article/pii/S0743731523000400)**.  
 
 ---
 
@@ -38,12 +38,12 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 # 🎓 Education
 
-- **[2022–present]** **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China.
-- **[2018–2022]** **B.E.**, Institute for Advanced Study, Nanchang University, China. 
+- 2022.6-present **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China.
+- 2018.9-2022.6 **B.E.**, Institute for Advanced Study, Nanchang University, China. 
   
 ---
 
 # 💼 Experience
 
-- **[2025.2–2025.4]** **Visiting Researcher**, Institute of Science Tokyo, Japan. 
+- 2025.2-2025.4** **Visiting Researcher**, Institute of Science Tokyo, Japan. 
   Conducted research on GPU-accelerated graph algorithms at [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki).
