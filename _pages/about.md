@@ -38,12 +38,12 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 # 🎓 Education
 
-- **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China. (2022–present)
-- **B.E.**, Institute for Advanced Study, Nanchang University, China. (2018–2022)
+- **[(2022–Present)]** Ph.D. Student, School of Electronic Science and Engineering, Nanjing University, China. (2022–present)
+- **[2018–2022]** B.E., Institute for Advanced Study, Nanchang University, China. 
   
 ---
 
 # 💼 Experience
 
-- **Visiting Researcher**, Institute of Science Tokyo, Japan. (Feb 2025 – Apr 2025)
+- **[Feb 2025–Apr 2025]** Visiting Researcher, Institute of Science Tokyo, Japan. 
   Conducted research on GPU-accelerated graph algorithms at [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki).
