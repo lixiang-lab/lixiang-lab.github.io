@@ -14,7 +14,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-### 📰 News
+# 📰 News
 
 - **[Jun 2025]** Our paper *"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"* was accepted by **[TACO]**.
 - **[May 2025]** Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training. <!--I will join [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo for a two-year research collaboration.-->
@@ -25,7 +25,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-### 📚 Publications
+# 📚 Publications
 
 - **Xiang Li**, Qiong Chang, Yun Li, and Jun Miyazaki. *"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"*. ACM Transactions on Architecture and Code Optimization. In press (2025). **[TACO]**
 - Chang, Qiong, Xinyuan Chen, **Xiang Li**, Weimin Wang, and Jun Miyazaki. *"Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs"*. ACM Transactions on Embedded Computing Systems, 24(3), 1–22 (2025). **[TECS](https://dl.acm.org/doi/10.1145/3725217)**
@@ -36,14 +36,14 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-### 🎓 Education
+# 🎓 Education
 
 - **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China. (2022–present)
 - **B.E.**, Institute for Advanced Study, Nanchang University, China. (2018–2022)
   
 ---
 
-### 💼 Experience
+# 💼 Experience
 
 - **Visiting Researcher**, Institute of Science Tokyo, Japan. (Feb 2025 – Apr 2025)
   Conducted research on GPU-accelerated graph algorithms at [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki).
