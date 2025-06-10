@@ -45,5 +45,5 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 # 💼 Experience
 
-- <span style="color: #B0C4DE">2025.2-2025.4</span> **Visiting Researcher**, Institute of Science Tokyo, Japan. 
+- <span style="color: #87CEFA">2025.2-2025.4</span> **Visiting Researcher**, Institute of Science Tokyo, Japan. <span style="color: #98FB98">2</span> <span style="color: #FFB6C1">3</span> <span style="color: #0000FF">4</span> <span style="color: #FFA500">5</span>
   Conducted research on GPU-accelerated graph algorithms at [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki).
