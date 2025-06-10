@@ -15,14 +15,14 @@ name                     : &name "Xiang Li"
 description              : &description "personal description"
 url                      : https://lixiang-lab.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://lixiang-lab.github.io/"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/me.jpg"
+  avatar           : "/images/622.png"
   name             : "Xiang Li"
   #pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student"
