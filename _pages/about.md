@@ -38,7 +38,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 # 🎓 Education
 
-- **[2022–Present]** **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China. (2022–present)
+- **[2022–present]** **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China. (2022–present)
 - **[2018–2022]** **B.E.**, Institute for Advanced Study, Nanchang University, China. 
   
 ---
