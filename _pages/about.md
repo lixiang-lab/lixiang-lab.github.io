@@ -12,14 +12,62 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-# 📰 News
+<h2>📰 News</h2>
 
-- <span style="color: #c94e39">2025.6</span> Our paper *"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"* was accepted by **[TACO]**.
-- <span style="color: #c94e39">2025.5</span> Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training. <!--I will join [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo for a two-year research collaboration.-->
-- <span style="color: #c94e39">2025.2</span> Visited [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki) at the Institute of Science Tokyo, Japan, as a short-term research scholar.
-- <span style="color: #c94e39">2025.1</span> Our paper *"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"* was accepted by **[GPGPU’25](https://dl.acm.org/doi/10.1145/3725798.3725807)**.  
-- <span style="color: #c94e39">2024.8</span> Our paper *"An Optimized GPU Implementation for GIST Descriptor"* was accepted by **[TACO](https://dl.acm.org/doi/10.1145/3689339)**.  
-- <span style="color: #c94e39">2023.3</span> Our paper *"Multi-directional Sobel operator kernel on GPUs"* was accepted by **[JPDC](https://www.sciencedirect.com/science/article/pii/S0743731523000400)**.  
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px; vertical-align: top; width: 15%;">
+      <span style="color: #c94e39;">2025.6</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      Our paper <em>"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"</em> was accepted by <strong>[TACO]</strong>.
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px;">
+      <span style="color: #c94e39;">2025.5</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training.
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px;">
+      <span style="color: #c94e39;">2025.2</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      Visited <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at Institute of Science Tokyo as a short-term research scholar.
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px;">
+      <span style="color: #c94e39;">2025.1</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      Our paper <em>"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"</em> was accepted by 
+      <strong><a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU’25</a></strong>.
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px;">
+      <span style="color: #c94e39;">2024.8</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      Our paper <em>"An Optimized GPU Implementation for GIST Descriptor"</em> was accepted by 
+      <strong><a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a></strong>.
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px;">
+      <span style="color: #c94e39;">2023.3</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      Our paper <em>"Multi-directional Sobel operator kernel on GPUs"</em> was accepted by 
+      <strong><a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">JPDC</a></strong>.
+    </td>
+  </tr>
+</table>
+
 
 ---
 
@@ -32,7 +80,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</strong></div>
-      <div>Xiang Li, Qiong Chang, Yun Li, Jun Miyazaki</div>
+      <div>**Xiang Li**, Qiong Chang, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -42,17 +90,17 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs</strong></div>
-      <div>Qiong Chang, Xinyuan Chen, Xiang Li, Weimin Wang, Jun Miyazaki</div>
+      <div>Qiong Chang, Xinyuan Chen, **Xiang Li**, Weimin Wang, Jun Miyazaki</div>
     </td>
   </tr>
 
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
-      <strong><a href="https://dl.acm.org/doi/10.1145/3725798.3725807">[GPGPU’25]</a></strong>
+      <strong><a href="https://dl.acm.org/doi/10.1145/3725798.3725807">[GPGPU 2025]</a></strong>
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>Efficient Parallel Implementation of Non-Local Means Algorithm on GPU</strong></div>
-      <div>Xiang Li, Qiong Chang, Yun Li, Jun Miyazaki</div>
+      <div>**Xiang Li**, Qiong Chang, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -62,7 +110,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>An Optimized GPU Implementation for GIST Descriptor</strong></div>
-      <div>Xiang Li, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
+      <div>**Xiang Li**, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -72,7 +120,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>Multi-directional Sobel Operator Kernel on GPUs</strong></div>
-      <div>Qiong Chang, Xiang Li, Yun Li, Jun Miyazaki</div>
+      <div>Qiong Chang, **Xiang Li**, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -82,7 +130,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>StereoVAE: A Lightweight Stereo-Matching System Using Embedded GPUs</strong></div>
-      <div>Qiong Chang, Xiang Li, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
+      <div>Qiong Chang, **Xiang Li**, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 </table>
@@ -91,13 +139,42 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-# 🎓 Education
+<h2>🎓 Education</h2>
 
-- <span style="color: #c94e39">2022.6-present</span> **Ph.D. Student**, School of Electronic Science and Engineering, Nanjing University, China.
-- <span style="color: #c94e39">2018.9-2022.6</span> **B.E.**, Institute for Advanced Study, Nanchang University, China. 
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px; vertical-align: top; width: 20%;">
+      <span style="color: #c94e39;">2022.6–present</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      <strong>Ph.D. Student</strong>, School of Electronic Science and Engineering, Nanjing University, China.
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px; vertical-align: top;">
+      <span style="color: #c94e39;">2018.9–2022.6</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      <strong>B.E.</strong>, Institute for Advanced Study, Nanchang University, China.
+    </td>
+  </tr>
+</table>
+
   
 ---
 
-# 💼 Experience
+<h2>💼 Experience</h2>
 
-- <span style="color: #c94e39">2025.2-2025.4</span> **Visiting Researcher**, Institute of Science Tokyo, Japan. Conducted research on GPU-accelerated graph algorithms at [Miyazaki Lab](https://www.lsc.c.titech.ac.jp/miyazaki).
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 6px 12px; vertical-align: top; width: 20%;">
+      <span style="color: #c94e39;">2025.2–2025.4</span>
+    </td>
+    <td style="border: none; padding: 6px 12px;">
+      <strong>Visiting Researcher</strong>, Institute of Science Tokyo, Japan.  
+      Conducted research on GPU-accelerated graph algorithms at 
+      <a href="https://www.lsc.c.titech.ac.jp/miyazaki" target="_blank">Miyazaki Lab</a>.
+    </td>
+  </tr>
+</table>
+
