@@ -23,14 +23,58 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-# 📚 Publications
+<h2>📚 Publications</h2>
 
-- **Xiang Li**, Qiong Chang, Yun Li, and Jun Miyazaki. *"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"*. ACM Transactions on Architecture and Code Optimization. In press (2025). **[TACO]**
-- Chang, Qiong, Xinyuan Chen, **Xiang Li**, Weimin Wang, and Jun Miyazaki. *"Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs"*. ACM Transactions on Embedded Computing Systems, 24(3), 1–22 (2025). **[TECS](https://dl.acm.org/doi/10.1145/3725217)**
-- **Xiang Li**, Qiong Chang, Yun Li, and Jun Miyazaki. *"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"*. In *Proceedings of the 17th Workshop on General Purpose Processing Using GPU (GPGPU’25)*, pp. 55–61, 2025. **[GPGPU 2025](https://dl.acm.org/doi/10.1145/3725798.3725807)**
-- **Xiang Li**, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, and Jun Miyazaki. *"An Optimized GPU Implementation for GIST Descriptor"*. ACM Transactions on Architecture and Code Optimization, 21(4), 1–24 (2024). **[TACO](https://dl.acm.org/doi/10.1145/3689339)**
-- Chang, Qiong, **Xiang Li**, Yun Li, and Jun Miyazaki. *"Multi-directional Sobel Operator Kernel on GPUs"*. *Journal of Parallel and Distributed Computing*, 177, 160–170 (2023). **[JPDC](https://www.sciencedirect.com/science/article/pii/S0743731523000400)**
-- Chang, Qiong, **Xiang Li**, Xin Xu, Xin Liu, Yun Li, and Jun Miyazaki. *"StereoVAE: A Lightweight Stereo-Matching System Using Embedded GPUs"*. In *Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)*, pp. 1982–1988, 2023. **[ICRA 2023](https://ieeexplore.ieee.org/abstract/document/10160441)**
+<table>
+  <tr>
+    <td width="20%"><strong>[TACO]</strong></td>
+    <td>
+      <div><strong>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</strong></div>
+      <div>Xiang Li, Qiong Chang, Yun Li, Jun Miyazaki</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong><a href="https://dl.acm.org/doi/10.1145/3725217">[TECS]</a></strong></td>
+    <td>
+      <div><strong>Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs</strong></div>
+      <div>Qiong Chang, Xinyuan Chen, Xiang Li, Weimin Wang, Jun Miyazaki</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong><a href="https://dl.acm.org/doi/10.1145/3725798.3725807">[GPGPU’25]</a></strong></td>
+    <td>
+      <div><strong>Efficient Parallel Implementation of Non-Local Means Algorithm on GPU</strong></div>
+      <div>Xiang Li, Qiong Chang, Yun Li, Jun Miyazaki</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong><a href="https://dl.acm.org/doi/10.1145/3689339">[TACO]</a></strong></td>
+    <td>
+      <div><strong>An Optimized GPU Implementation for GIST Descriptor</strong></div>
+      <div>Xiang Li, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong><a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">[JPDC]</a></strong></td>
+    <td>
+      <div><strong>Multi-directional Sobel Operator Kernel on GPUs</strong></div>
+      <div>Qiong Chang, Xiang Li, Yun Li, Jun Miyazaki</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong><a href="https://ieeexplore.ieee.org/abstract/document/10160441">[ICRA 2023]</a></strong></td>
+    <td>
+      <div><strong>StereoVAE: A Lightweight Stereo-Matching System Using Embedded GPUs</strong></div>
+      <div>Qiong Chang, Xiang Li, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
