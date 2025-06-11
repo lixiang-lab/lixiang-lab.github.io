@@ -25,7 +25,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 <h2>📚 Publications</h2>
 
-<table>
+<table class="no-border">
   <tr>
     <td width="20%"><strong>[TACO]</strong></td>
     <td>
