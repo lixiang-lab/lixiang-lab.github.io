@@ -85,7 +85,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</strong></div>
-      <div>**Xiang Li**, Qiong Chang, Yun Li, Jun Miyazaki</div>
+      <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -95,7 +95,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs</strong></div>
-      <div>Qiong Chang, Xinyuan Chen, **Xiang Li**, Weimin Wang, Jun Miyazaki</div>
+      <div>Qiong Chang, Xinyuan Chen, <strong>Xiang Li</strong>, Weimin Wang, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -105,7 +105,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>Efficient Parallel Implementation of Non-Local Means Algorithm on GPU</strong></div>
-      <div>**Xiang Li**, Qiong Chang, Yun Li, Jun Miyazaki</div>
+      <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -115,7 +115,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>An Optimized GPU Implementation for GIST Descriptor</strong></div>
-      <div>**Xiang Li**, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
+      <div><strong>Xiang Li</strong>, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -125,7 +125,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>Multi-directional Sobel Operator Kernel on GPUs</strong></div>
-      <div>Qiong Chang, **Xiang Li**, Yun Li, Jun Miyazaki</div>
+      <div>Qiong Chang, <strong>Xiang Li</strong>, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 
@@ -135,7 +135,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>StereoVAE: A Lightweight Stereo-Matching System Using Embedded GPUs</strong></div>
-      <div>Qiong Chang, **Xiang Li**, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
+      <div>Qiong Chang, <strong>Xiang Li</strong>, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
     </td>
   </tr>
 </table>
