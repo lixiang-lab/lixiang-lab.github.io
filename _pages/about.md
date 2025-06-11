@@ -12,9 +12,9 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-<h2>📰 News</h2>
+<h2 style="font-size: 22px;">📰 News</h2>
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top; width: 15%;">
       <span style="color: #c94e39;">Jun 2025</span>
@@ -76,12 +76,12 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-<h2>📚 Publications</h2>
+<h2 style="font-size: 22px;">📚 Publications</h2>
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
-      <strong>[TACO]</strong>
+      <strong>[TACO - In press]</strong>
     </td>
     <td style="border: none; padding: 8px;">
       <div><strong>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</strong></div>
@@ -144,9 +144,9 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 
 ---
 
-<h2>🎓 Education</h2>
+<h2 style="font-size: 22px;">🎓 Education</h2>
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top; width: 20%;">
       <span style="color: #c94e39;">2022–present</span>
@@ -168,9 +168,9 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
   
 ---
 
-<h2>💼 Experience</h2>
+<h2 style="font-size: 22px;">💼 Experience</h2>
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top; width: 20%;">
       <span style="color: #c94e39;">Feb 2025–Apr 2025</span>
