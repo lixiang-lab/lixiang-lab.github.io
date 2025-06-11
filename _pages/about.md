@@ -17,49 +17,54 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 <table style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top; width: 15%;">
-      <span style="color: #c94e39;">2025.6</span>
+      <span style="color: #c94e39;">Jun 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       Our paper <em>"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"</em> was accepted by <strong>[TACO]</strong>.
     </td>
   </tr>
+  
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px;">
-      <span style="color: #c94e39;">2025.5</span>
+      <span style="color: #c94e39;">May 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training.
     </td>
   </tr>
+  
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px;">
-      <span style="color: #c94e39;">2025.2</span>
+      <span style="color: #c94e39;">Feb 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       Visited <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at Institute of Science Tokyo as a short-term research scholar.
     </td>
   </tr>
+  
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px;">
-      <span style="color: #c94e39;">2025.1</span>
+      <span style="color: #c94e39;">Jan 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       Our paper <em>"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"</em> was accepted by 
       <strong><a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU’25</a></strong>.
     </td>
   </tr>
+  
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px;">
-      <span style="color: #c94e39;">2024.8</span>
+      <span style="color: #c94e39;">Aug 2024</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       Our paper <em>"An Optimized GPU Implementation for GIST Descriptor"</em> was accepted by 
       <strong><a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a></strong>.
     </td>
   </tr>
+  
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px;">
-      <span style="color: #c94e39;">2023.3</span>
+      <span style="color: #c94e39;">Mar 2023</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       Our paper <em>"Multi-directional Sobel operator kernel on GPUs"</em> was accepted by 
@@ -144,7 +149,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 <table style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top; width: 20%;">
-      <span style="color: #c94e39;">2022.6–present</span>
+      <span style="color: #c94e39;">2022–present</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       <strong>Ph.D. Student</strong>, School of Electronic Science and Engineering, Nanjing University, China.
@@ -152,7 +157,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
   </tr>
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top;">
-      <span style="color: #c94e39;">2018.9–2022.6</span>
+      <span style="color: #c94e39;">2018–2022</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       <strong>B.E.</strong>, Institute for Advanced Study, Nanchang University, China.
@@ -168,7 +173,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 <table style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none; padding: 6px 12px; vertical-align: top; width: 20%;">
-      <span style="color: #c94e39;">2025.2–2025.4</span>
+      <span style="color: #c94e39;">Feb 2025–Apr 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
       <strong>Visiting Researcher</strong>, Institute of Science Tokyo, Japan.  
