@@ -21,7 +21,7 @@ repository               : "https://lixiang-lab.github.io/" #
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
+  # Biographic information#
   avatar           : "622.png"
   name             : "Xiang Li"
   #pronouns         : # example: "she/her"  
