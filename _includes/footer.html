@@ -5,4 +5,8 @@
     <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
     <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.
   </div>
+
+  {% if site.footer.custom %}
+    {% include {{ site.footer.custom }} %}
+  {% endif %}
 </footer>
