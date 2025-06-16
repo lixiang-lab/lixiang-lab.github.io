@@ -82,7 +82,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
-      <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>
+      <a href="https://dl.acm.org/doi/10.1145/3744909">[TACO]</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</div>
