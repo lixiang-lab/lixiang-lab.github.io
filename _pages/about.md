@@ -20,7 +20,8 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
       <span style="color: #c94e39;">Jun 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
-      Our paper <em>"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"</em> was accepted by [TACO].
+      Our paper <em>"3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs"</em> was accepted by
+      <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
     </td>
   </tr>
   
@@ -48,7 +49,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
     </td>
     <td style="border: none; padding: 6px 12px;">
       Our paper <em>"Efficient Parallel Implementation of Non-Local Means Algorithm on GPU"</em> was accepted by 
-      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU’25</a>.
+      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU 2025</a>.
     </td>
   </tr>
   
@@ -81,7 +82,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
-      [TACO]
+      <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</div>
