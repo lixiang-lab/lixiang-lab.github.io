@@ -5,7 +5,7 @@ title                    : "Home"
 title_separator          : "-"
 name                     : &name "Xiang Li"
 description              : &description "Xiang Li's personal academic website. Ph.D. student at Nanjing University focusing on GPU computing and parallel data processing."
-url                      : https://lixiang-lab.github.io/
+url                      : https://lixiang-lab.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lixiang-lab/lixiang-lab.github.io"
 
