@@ -150,6 +150,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - BingSiteAuth.xml
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
