@@ -8,7 +8,7 @@ classes: wide
 
 I am a third-year direct Ph.D. student at the School of Electronic Science and Engineering, Nanjing University, advised by [Prof. Yun Li](https://www.yunligroup.org/) and [Prof. Qiong Chang](https://changqiong.github.io/). I received my Bachelor's degree from Nanchang University, China.
 
-My research focuses on GPU-based parallel computing for accelerating key algorithms in computer vision (particularly image processing), graph algorithms, and large-scale data processing.
+My research focuses on GPU-based parallel computing for accelerating key algorithms in computer vision, graph algorithms, and large-scale data processing.
 
 ---
 
