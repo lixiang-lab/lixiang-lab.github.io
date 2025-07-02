@@ -8,7 +8,7 @@ classes: wide
 
 I am a third-year direct Ph.D. student at the School of Electronic Science and Engineering, Nanjing University, advised by [Prof. Yun Li](https://www.yunligroup.org/) and [Prof. Qiong Chang](https://changqiong.github.io/). I received my Bachelor's degree from Nanchang University, China.
 
-My research focuses on GPU-based parallel computing, aiming to accelerate key algorithms in computer vision, graph analytics, and large-scale data processing. The goal is to develop performance-optimized solutions for high-end GPUs, as well as resource-efficient, low-latency systems tailored to embedded GPUs and constrained platforms.
+My research focuses on GPU-based parallel computing, aiming to accelerate key algorithms in computer vision, graph analytics, and large-scale data processing. The goal is to develop performance-optimized solutions for high-end GPUs, as well as resource-efficient, low-latency systems for embedded and resource-constrained platforms.
 ﻿
 ﻿
 
@@ -41,7 +41,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
       <span style="color: #c94e39;">Feb 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
-      Visited <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at Institute of Science Tokyo as a short-term research scholar.
+      Will visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at the Institute of Science Tokyo as a short-term research scholar.
     </td>
   </tr>
   
