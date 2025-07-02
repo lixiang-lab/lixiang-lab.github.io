@@ -30,7 +30,7 @@ My research focuses on GPU-based parallel computing for accelerating key algorit
       <span style="color: #c94e39;">May 2025</span>
     </td>
     <td style="border: none; padding: 6px 12px;">
-      Awarded a scholarship from the China Scholarship Council (CSC) for joint Ph.D. training.
+      Awarded a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
     </td>
   </tr>
   
