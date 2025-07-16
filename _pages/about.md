@@ -193,7 +193,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
-      <span>[Reviewer]</span>
+      <span>**Reviewer**</span>
     </td>
     <td style="border: none; padding: 8px;">
       <div>ACM Transactions on Architecture and Code Optimization (TACO), 2025</div>
