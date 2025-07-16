@@ -196,8 +196,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
       <span>[Reviewer]</span>
     </td>
     <td style="border: none; padding: 8px;">
-      <div>ACM Transactions on Architecture and Code Optimization (TACO)</div>
-      <div><em>Since 2025</em></div>
+      <div>ACM Transactions on Architecture and Code Optimization (TACO), 2025</div>
     </td>
   </tr>
 </table>
