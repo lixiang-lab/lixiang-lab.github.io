@@ -171,7 +171,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
   
 ---
 
-<h2 style="font-size: 22px;">🏫 Experience</h2>
+<h2 style="font-size: 22px;">💼 Experience</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -188,7 +188,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;">💼 Academic Service</h2>
+<h2 style="font-size: 22px;">🗂️ Academic Service</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
