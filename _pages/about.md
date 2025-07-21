@@ -38,18 +38,79 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 <h2 class="section-title"><ion-icon name="book-outline"></ion-icon> Publications</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
-  <tr>
-    <td style="width: 20%; vertical-align: top; padding: 8px;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
       <a href="https://dl.acm.org/doi/10.1145/3744909">[TACO]</a>
     </td>
-    <td style="padding: 8px;">
+    <td style="border: none; padding: 8px;">
       <div class="pub-item">
-        <div>3D GNLM: Efficient 3D Non-Local Means Kernel...</div>
-        <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li...</div>
+        <div>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</div>
+        <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li, Jun Miyazaki</div>
+      </div>
+    </td>
+  </tr>
+
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px; vertical-align: top;">
+      <a href="https://dl.acm.org/doi/10.1145/3725217">[TECS]</a>
+    </td>
+    <td style="border: none; padding: 8px;">
+      <div class="pub-item">
+        <div>Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs</div>
+        <div>Qiong Chang, Xinyuan Chen, <strong>Xiang Li</strong>, Weimin Wang, Jun Miyazaki</div>
+      </div>
+    </td>
+  </tr>
+
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px; vertical-align: top;">
+      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">[GPGPU 2025]</a>
+    </td>
+    <td style="border: none; padding: 8px;">
+      <div class="pub-item">
+        <div>Efficient Parallel Implementation of Non-Local Means Algorithm on GPU</div>
+        <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li, Jun Miyazaki</div>
+      </div>
+    </td>
+  </tr>
+
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px; vertical-align: top;">
+      <a href="https://dl.acm.org/doi/10.1145/3689339">[TACO]</a>
+    </td>
+    <td style="border: none; padding: 8px;">
+      <div class="pub-item">
+        <div>An Optimized GPU Implementation for GIST Descriptor</div>
+        <div><strong>Xiang Li</strong>, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
+      </div>
+    </td>
+  </tr>
+
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px; vertical-align: top;">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">[JPDC]</a>
+    </td>
+    <td style="border: none; padding: 8px;">
+      <div class="pub-item">
+        <div>Multi-directional Sobel Operator Kernel on GPUs</div>
+        <div>Qiong Chang, <strong>Xiang Li</strong>, Yun Li, Jun Miyazaki</div>
+      </div>
+    </td>
+  </tr>
+
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px; vertical-align: top;">
+      <a href="https://ieeexplore.ieee.org/abstract/document/10160441">[ICRA 2023]</a>
+    </td>
+    <td style="border: none; padding: 8px;">
+      <div class="pub-item">
+        <div>StereoVAE: A Lightweight Stereo-Matching System Using Embedded GPUs</div>
+        <div>Qiong Chang, <strong>Xiang Li</strong>, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
 </table>
+
 
 ---
 
