@@ -56,12 +56,12 @@ a:hover::after {
 
 
 span.year-highlight {
-  color: #c94e39;
+  color: #00bcd4;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 span.year-highlight:hover {
-  color: #ff7043;
+  color: #ff5722;
 }
 
 .pub-item {
@@ -85,7 +85,7 @@ table.table-flat, table.table-hover {
 
 /* 左列样式（时间列） */
 .year-highlight {
-  color: #c94e39;
+  color: #00bcd4;
   font-weight: 500;
 }
 
