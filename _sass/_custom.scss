@@ -9,10 +9,11 @@ h2.section-title {
 
 h2.section-title ion-icon {
   font-size: 30px;
-  color: #333;
-  transition: color 0.2s ease;
+  color: #666;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
 h2.section-title ion-icon:hover {
-  color: #888;  // 悬停时变深一点
+  color: #007acc;  // 蓝色高亮
+  transform: scale(1.2);  // 缩放效果
 }
