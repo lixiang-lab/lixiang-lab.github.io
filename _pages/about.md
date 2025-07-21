@@ -16,11 +16,11 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr>
-    <td style="padding: 6px 12px; width: 15%; vertical-align: top;">
+    <td style="border: none; padding: 6px 12px; width: 15%; vertical-align: top;">
       <span class="year-highlight">Jun 2025</span>
     </td>
-    <td style="padding: 6px 12px;">
-      <ion-icon name="trophy-outline" style="font-size: 16px; color: goldenrod; margin-right: 4px;"></ion-icon>
+    <td style="border: none; padding: 6px 12px;">
+      <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
       Our paper "3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs" was accepted by
       <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
     </td>
@@ -29,7 +29,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
   <tr>
     <td><span class="year-highlight">May 2025</span></td>
     <td>
-      <ion-icon name="school-outline" style="font-size: 16px; color: darkgreen; margin-right: 4px;"></ion-icon>
+      <ion-icon name="trophy-outline" style="font-size: 16px; color: goldenrod; margin-right: 4px;"></ion-icon>
       Awarded a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
     </td>
   </tr>
