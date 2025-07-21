@@ -17,7 +17,7 @@ h2.section-title ion-icon:hover {
 
 .my-name {
   font-weight: 600;
-  color: #00bcd4; /* 科技蓝绿，可换成你想要的主色 */
+  color: #c94e39; /* 科技蓝绿，可换成你想要的主色 */
   transition: background 0.3s ease, color 0.3s ease;
 }
 
@@ -56,12 +56,12 @@ a:hover::after {
 
 
 span.year-highlight {
-  color: #00bcd4;
+  color: #c94e39;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 span.year-highlight:hover {
-  color: #ff5722;
+  color: #ff7043;
 }
 
 .pub-item {
@@ -85,7 +85,7 @@ table.table-flat, table.table-hover {
 
 /* 左列样式（时间列） */
 .year-highlight {
-  color: #00bcd4;
+  color: #c94e39;
   font-weight: 500;
 }
 
