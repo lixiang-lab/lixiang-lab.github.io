@@ -38,3 +38,51 @@ span.year-highlight:hover {
 .pub-item:hover {
   background: #f8f9fa;
 }
+
+/* 去除所有表格边框 */
+table.table-flat, table.table-hover, table td, table tr {
+  border: none !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 所有表格字体大小统一 */
+table.table-flat, table.table-hover {
+  font-size: 17px;
+}
+
+/* 左列样式（时间列） */
+.year-highlight {
+  color: #c94e39;
+  font-weight: 500;
+}
+
+/* 两列布局通用间距和布局 */
+table td {
+  padding: 6px 12px;
+  vertical-align: top;
+}
+
+/* icon 样式统一控制 */
+.icon-inline {
+  font-size: 16px;
+  color: #5c5c5c;
+  margin-right: 6px;
+  vertical-align: text-bottom;
+}
+
+/* 不同用途可以扩展 icon 样式 */
+.icon-gold {
+  color: goldenrod;
+}
+.icon-blue {
+  color: #0077b6;
+}
+.icon-title {
+  font-size: 30px;
+  color: #999;
+  transition: color 0.2s ease;
+}
+.icon-title:hover {
+  color: #555;
+}
