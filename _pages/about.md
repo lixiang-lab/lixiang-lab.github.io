@@ -21,14 +21,51 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="trophy-outline" style="font-size: 16px; color: goldenrod; margin-right: 4px;"></ion-icon>
-      Our paper "3D GNLM..." was accepted by <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
+      Our paper "3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs" was accepted by
+      <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
     </td>
   </tr>
+
   <tr>
     <td><span class="year-highlight">May 2025</span></td>
     <td>
       <ion-icon name="school-outline" style="font-size: 16px; color: darkgreen; margin-right: 4px;"></ion-icon>
-      Awarded CSC scholarship for joint Ph.D. training.
+      Awarded a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
+    </td>
+  </tr>
+
+  <tr>
+    <td><span class="year-highlight">Feb 2025</span></td>
+    <td>
+      <ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
+      Will visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at the Institute of Science Tokyo as a short-term research scholar.
+    </td>
+  </tr>
+
+  <tr>
+    <td><span class="year-highlight">Jan 2025</span></td>
+    <td>
+      <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
+      Our paper "Efficient Parallel Implementation of Non-Local Means Algorithm on GPU" was accepted by 
+      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU 2025</a>.
+    </td>
+  </tr>
+
+  <tr>
+    <td><span class="year-highlight">Aug 2024</span></td>
+    <td>
+      <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
+      Our paper "An Optimized GPU Implementation for GIST Descriptor" was accepted by 
+      <a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a>.
+    </td>
+  </tr>
+
+  <tr>
+    <td><span class="year-highlight">Mar 2023</span></td>
+    <td>
+      <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
+      Our paper "Multi-directional Sobel operator kernel on GPUs" was accepted by 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">JPDC</a>.
     </td>
   </tr>
 </table>
