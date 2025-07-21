@@ -6,6 +6,7 @@ h2.section-title ion-icon {
 h2.section-title ion-icon:hover {
   transform: scale(1.1);
   color: #999;
+  filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5));
 }
 
 .table-hover tr:hover {
@@ -16,11 +17,25 @@ h2.section-title ion-icon:hover {
 a {
   color: #0066cc;
   text-decoration: none;
-  transition: color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  transition: color 0.3s ease;
 }
-a:hover {
-  color: #ff5722;
-  box-shadow: 0 1px 0 0 currentColor;
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+a:hover::after {
+  transform: scaleX(1);
 }
 
 span.year-highlight {
