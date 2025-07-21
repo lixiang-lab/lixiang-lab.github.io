@@ -34,9 +34,14 @@ a::after {
   transform-origin: left;
 }
 
+a:hover {
+  color: #ff5722; /* 你原来用的悬停颜色 */
+}
+
 a:hover::after {
   transform: scaleX(1);
 }
+
 
 span.year-highlight {
   color: #c94e39;
