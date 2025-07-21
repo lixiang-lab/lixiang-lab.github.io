@@ -79,7 +79,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;"><ion-icon name="book-outline"></ion-icon> Publications</h2>
+<h2 class="section-title"><ion-icon name="book-outline"></ion-icon> Publications</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -147,7 +147,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;"><ion-icon name="school-outline"></ion-icon> Education</h2>
+<h2 class="section-title"><ion-icon name="school-outline"></ion-icon> Education</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -171,7 +171,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
   
 ---
 
-<h2 style="font-size: 22px;"><ion-icon name="briefcase-outline"></ion-icon> Experience</h2>
+<h2 class="section-title"><ion-icon name="briefcase-outline"></ion-icon> Experience</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -188,7 +188,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;"><ion-icon name="ribbon-outline"></ion-icon> Academic Service</h2>
+<h2 class="section-title"><ion-icon name="ribbon-outline"></ion-icon> Academic Service</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
