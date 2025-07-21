@@ -14,7 +14,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;">📢 News</h2>
+<h2 style="font-size: 22px;"><ion-icon name="newspaper-outline"></ion-icon> News</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -79,7 +79,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;">📄 Publications</h2>
+<h2 style="font-size: 22px;"><ion-icon name="book-outline"></ion-icon> Publications</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -147,7 +147,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;">🎓 Education</h2>
+<h2 style="font-size: 22px;"><ion-icon name="school-outline"></ion-icon> Education</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -171,7 +171,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
   
 ---
 
-<h2 style="font-size: 22px;">💼 Experience</h2>
+<h2 style="font-size: 22px;"><ion-icon name="bag-remove-outline"></ion-icon> Experience</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
@@ -188,7 +188,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
 ---
 
-<h2 style="font-size: 22px;">🗂️ Academic Service</h2>
+<h2 style="font-size: 22px;"><ion-icon name="ribbon-outline"></ion-icon> Academic Service</h2>
 
 <table style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
