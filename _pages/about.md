@@ -82,7 +82,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
         <div>3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs</div>
-        <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li, Jun Miyazaki</div>
+        <div><span class="my-name">Xiang Li</span>, Qiong Chang, Yun Li, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
@@ -94,7 +94,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
         <div>Faster than Fast: Accelerating Oriented FAST Feature Detection on Low-end Embedded GPUs</div>
-        <div>Qiong Chang, Xinyuan Chen, <strong>Xiang Li</strong>, Weimin Wang, Jun Miyazaki</div>
+        <div>Qiong Chang, Xinyuan Chen, <span class="my-name">Xiang Li</span>, Weimin Wang, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
@@ -106,7 +106,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
         <div>Efficient Parallel Implementation of Non-Local Means Algorithm on GPU</div>
-        <div><strong>Xiang Li</strong>, Qiong Chang, Yun Li, Jun Miyazaki</div>
+        <div><span class="my-name">Xiang Li</span>, Qiong Chang, Yun Li, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
@@ -118,7 +118,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
         <div>An Optimized GPU Implementation for GIST Descriptor</div>
-        <div><strong>Xiang Li</strong>, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
+        <div><span class="my-name">Xiang Li</span>, Qiong Chang, Aolong Zha, Shijie Chang, Yun Li, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
@@ -130,7 +130,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
         <div>Multi-directional Sobel Operator Kernel on GPUs</div>
-        <div>Qiong Chang, <strong>Xiang Li</strong>, Yun Li, Jun Miyazaki</div>
+        <div>Qiong Chang, <span class="my-name">Xiang Li</span>, Yun Li, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
@@ -142,7 +142,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
         <div>StereoVAE: A Lightweight Stereo-Matching System Using Embedded GPUs</div>
-        <div>Qiong Chang, <strong>Xiang Li</strong>, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
+        <div>Qiong Chang, <span class="my-name">Xiang Li</span>, Xin Xu, Xin Liu, Yun Li, Jun Miyazaki</div>
       </div>
     </td>
   </tr>
