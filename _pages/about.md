@@ -201,10 +201,10 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr>
     <td style="padding: 8px; width: 20%; vertical-align: top;">
-      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Reviewer</strong>
+      <span class="year-highlight">Reviewer</span>
     </td>
     <td style="padding: 8px;">
+      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
       ACM Transactions on Architecture and Code Optimization (TACO), 2025
     </td>
   </tr>
