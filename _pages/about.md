@@ -77,7 +77,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
-      <a href="https://dl.acm.org/doi/10.1145/3744909">[TACO]</a>
+      <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
@@ -89,7 +89,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
-      <a href="https://dl.acm.org/doi/10.1145/3725217">[TECS]</a>
+      <a href="https://dl.acm.org/doi/10.1145/3725217">TECS</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
@@ -101,7 +101,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
-      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">[GPGPU 2025]</a>
+      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU 2025</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
@@ -113,7 +113,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
-      <a href="https://dl.acm.org/doi/10.1145/3689339">[TACO]</a>
+      <a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
@@ -125,7 +125,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">[JPDC]</a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">JPDC</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
@@ -137,7 +137,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
 
   <tr style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10160441">[ICRA 2023]</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10160441">ICRA 2023</a>
     </td>
     <td style="border: none; padding: 8px;">
       <div class="pub-item">
