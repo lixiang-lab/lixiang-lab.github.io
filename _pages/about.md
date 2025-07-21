@@ -160,10 +160,20 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="school-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Ph.D. Student</strong>, School of Electronic Science and Engineering, Nanjing University.
+      <strong>Ph.D. Student</strong>, School of Electronic Science and Engineering, Nanjing University, China.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 6px 12px; vertical-align: top;">
+      <span class="year-highlight">2018–2022</span>
+    </td>
+    <td style="padding: 6px 12px;">
+      <ion-icon name="school-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>B.E.</strong>, Institute for Advanced Study, Nanchang University, China.
     </td>
   </tr>
 </table>
+
 
 ---
 
@@ -176,10 +186,13 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="person-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Visiting Researcher</strong>, Institute of Science Tokyo.
+      <strong>Visiting Researcher</strong>, Institute of Science Tokyo, Japan.  
+      Conducted research on GPU-accelerated graph algorithms at
+      <a href="https://www.lsc.c.titech.ac.jp/miyazaki" target="_blank">Miyazaki Lab</a>.
     </td>
   </tr>
 </table>
+
 
 ---
 
