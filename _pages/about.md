@@ -21,7 +21,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     </td>
     <td style="border: none; padding: 6px 12px;">
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      Our paper "3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs" was accepted by
+      A paper "3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs" was accepted by
       <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
     </td>
   </tr>
@@ -46,7 +46,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td><span class="year-highlight">Jan 2025</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      Our paper "Efficient Parallel Implementation of Non-Local Means Algorithm on GPU" was accepted by 
+      A paper "Efficient Parallel Implementation of Non-Local Means Algorithm on GPU" was accepted by 
       <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU 2025</a>.
     </td>
   </tr>
@@ -55,7 +55,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td><span class="year-highlight">Aug 2024</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      Our paper "An Optimized GPU Implementation for GIST Descriptor" was accepted by 
+      A paper "An Optimized GPU Implementation for GIST Descriptor" was accepted by 
       <a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a>.
     </td>
   </tr>
@@ -64,7 +64,7 @@ My research focuses on GPU-based parallel computing, aiming to accelerate key al
     <td><span class="year-highlight">Mar 2023</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      Our paper "Multi-directional Sobel operator kernel on GPUs" was accepted by 
+      A paper "Multi-directional Sobel operator kernel on GPUs" was accepted by 
       <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">JPDC</a>.
     </td>
   </tr>
