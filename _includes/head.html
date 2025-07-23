@@ -5,6 +5,7 @@
 <link rel="icon" href="{{ '/images/favicon.png' | relative_url }}" type="image/png">
 
 {% include seo.html %}
+<meta name="description" content="{{ site.description | escape }}">
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
