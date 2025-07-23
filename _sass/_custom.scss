@@ -1,31 +1,21 @@
+/* ===============================
+   Section Icon (h2 headers)
+================================= */
 h2.section-title ion-icon {
   font-size: 30px;
   color: #666;
   transition: color 0.2s ease, transform 0.2s ease;
 }
+
 h2.section-title ion-icon:hover {
   transform: scale(1.1);
   color: #999;
   filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5));
 }
 
-.table-hover tr:hover {
-  background-color: #f5f5f5;
-  transition: background-color 0.3s ease;
-}
-
-
-.my-name {
-  font-weight: 600;
-  color: #c94e39; /* 科技蓝绿，可换成你想要的主色 */
-  transition: background 0.3s ease, color 0.3s ease;
-}
-
-.my-name:hover {
-  color: #ff5722; /* 悬停时激活色 */
-  transform: scale(1.1);
-}
-
+/* ===============================
+   Link Styles
+================================= */
 a {
   color: #0066cc;
   text-decoration: none;
@@ -47,55 +37,16 @@ a::after {
 }
 
 a:hover {
-  color: #ff5722; /* 你原来用的悬停颜色 */
+  color: #ff5722;
 }
 
 a:hover::after {
   transform: scaleX(1);
 }
 
-
-span.year-highlight {
-  color: #c94e39;
-  font-weight: 600;
-  transition: color 0.2s ease;
-}
-span.year-highlight:hover {
-  color: #ff7043;
-}
-
-.pub-item {
-  transition: background 0.3s ease;
-}
-.pub-item:hover {
-  background: #f8f9fa;
-}
-
-/* 去除所有表格边框 */
-table.table-flat, table.table-hover, table td, table tr {
-  border: none !important;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* 所有表格字体大小统一 */
-table.table-flat, table.table-hover {
-  font-size: 17px;
-}
-
-/* 左列样式（时间列） */
-.year-highlight {
-  color: #c94e39;
-  font-weight: 500;
-}
-
-/* 两列布局通用间距和布局 */
-table td {
-  padding: 6px 12px;
-  vertical-align: top;
-}
-
-/* icon 样式统一控制 */
+/* ===============================
+   Icon Styles
+================================= */
 .icon-inline {
   font-size: 16px;
   color: #5c5c5c;
@@ -103,24 +54,45 @@ table td {
   vertical-align: text-bottom;
 }
 
-/* 不同用途可以扩展 icon 样式 */
 .icon-gold {
   color: goldenrod;
 }
+
 .icon-blue {
   color: #0077b6;
 }
+
 .icon-title {
   font-size: 30px;
   color: #999;
   transition: color 0.2s ease;
 }
+
 .icon-title:hover {
   color: #555;
 }
 
+/* ===============================
+   Name Highlight
+================================= */
+.my-name {
+  font-weight: 600;
+  color: #c94e39;
+  transition: background 0.3s ease, color 0.3s ease;
+}
 
-/* 段落外层 hover 块 */
+.my-name:hover {
+  color: #ff5722;
+  transform: scale(1.1);
+}
+
+/* ===============================
+   Keyword Highlight in Intro Block
+================================= */
+.highlight-key {
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+
 .intro-block {
   padding: 16px 20px;
   border-radius: 10px;
@@ -131,15 +103,64 @@ table td {
   background-color: #f5f5f5;
 }
 
-/* 关键词默认状态 */
-.highlight-key {
-  transition: color 0.5s ease, transform 0.5s ease;
-}
-
-/* 鼠标悬停整块时高亮关键词 */
 .intro-block:hover .highlight-key {
   color: #ff7043;
- // font-weight: 600;
- // transform: scale(1.05);
+  /* font-weight: 600; */
+  /* transform: scale(1.05); */
 }
 
+/* ===============================
+   Year Highlight (News / Publications)
+================================= */
+.year-highlight {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.news-item:hover .year-highlight,
+.pub-item:hover .year-highlight {
+  color: #ff7043;
+}
+
+/* ===============================
+   Hover Blocks (News / Pubs)
+================================= */
+.news-item,
+.pub-item {
+  transition: background-color 0.3s ease;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.news-item:hover,
+.pub-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* ===============================
+   Table Styles
+================================= */
+table.table-flat,
+table.table-hover,
+table td,
+table tr {
+  border: none !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table.table-flat,
+table.table-hover {
+  font-size: 17px;
+}
+
+.table-hover tr:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+table td {
+  padding: 6px 12px;
+  vertical-align: top;
+}
