@@ -6,9 +6,16 @@ permalink: /
 classes: wide
 ---
 
-I am a fourth-year direct Ph.D. student at the School of Electronic Science and Engineering, Nanjing University, advised by [Prof. Yun Li](https://www.yunligroup.org/) and [Prof. Qiong Chang](https://changqiong.github.io/). I received my Bachelor's degree from Nanchang University, China.
+<p style="font-size: 17px;">
+  <ion-icon name="pulse-outline" style="font-size: 20px; color: #5c5c5c; margin-right: 6px; vertical-align: middle;"></ion-icon>
+  I am a fourth-year direct Ph.D. student at the School of Electronic Science and Engineering, Nanjing University, advised by 
+  <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. I received my Bachelor's degree from Nanchang University, China.
+</p>
 
-My research focuses on high-performance parallel algorithm design on GPUs, aiming to accelerate core computational tasks in computer vision, graph analytics, and large-scale data processing. Specifically, I target both high-end and embedded GPU platforms to design algorithms that are highly parallel, computation-efficient, and resource-aware, through a co-design perspective of algorithm structure and hardware architecture.
+<p style="font-size: 17px;">
+  <ion-icon name="code-working-outline" style="font-size: 20px; color: #5c5c5c; margin-right: 6px; vertical-align: middle;"></ion-icon>
+  My research focuses on high-performance parallel algorithm design on GPUs, aiming to accelerate core computational tasks in computer vision, graph analytics, and large-scale data processing. Specifically, I target both high-end and embedded GPU platforms to design algorithms that are highly parallel, computation-efficient, and resource-aware, by considering both algorithmic structure and GPU architectural characteristics.
+</p>
 
 ---
 
