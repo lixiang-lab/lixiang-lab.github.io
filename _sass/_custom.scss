@@ -133,13 +133,13 @@ table td {
 
 /* 关键词默认状态 */
 .highlight-key {
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: color 0.5s ease, transform 0.5s ease;
 }
 
 /* 鼠标悬停整块时高亮关键词 */
 .intro-block:hover .highlight-key {
   color: #ff7043;
-  font-weight: 600;
-  transform: scale(1.05);
+ // font-weight: 600;
+ // transform: scale(1.05);
 }
 
