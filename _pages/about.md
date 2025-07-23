@@ -14,7 +14,7 @@ classes: wide
     <span class="highlight-key">Nanjing University</span>, advised by 
     <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
     <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. 
-    I received my Bachelor's degree from Nanchang University, China.
+    I received my Bachelor's degree from Nanchang University.
   </p>
 </div>
 
