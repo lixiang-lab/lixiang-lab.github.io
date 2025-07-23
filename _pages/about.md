@@ -71,7 +71,7 @@ classes: wide
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
       A paper "Efficient Parallel Implementation of Non-Local Means Algorithm on GPU" is accepted to 
-      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU'25</a> (Workshop).
+      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU'25</a>.
     </td>
   </tr>
 
