@@ -6,32 +6,31 @@ permalink: /
 classes: wide
 ---
 
+<!-- 第一段：基本信息 -->
 <div class="intro-block">
   <p style="font-size: 17px;">
     <ion-icon name="pulse-outline" class="icon-inline"></ion-icon>
-    I am a <span class="highlight-key">fourth-year direct Ph.D. student</span> at the 
-    <span class="highlight-key">School of Electronic Science and Engineering</span>, 
+    I am a <span class="highlight-key">fourth-year direct Ph.D. student</span> at the School of Electronic Science and Engineering, 
     <span class="highlight-key">Nanjing University</span>, advised by 
     <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
-    <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. I received my Bachelor's degree from 
-    <span class="highlight-key">Nanchang University</span>, China.
+    <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. 
+    I received my Bachelor's degree from Nanchang University, China.
   </p>
+</div>
 
+<!-- 第二段：研究方向 -->
+<div class="intro-block">
   <p style="font-size: 17px;">
     <ion-icon name="code-working-outline" class="icon-inline"></ion-icon>
     My research focuses on <span class="highlight-key">high-performance parallel algorithm design on GPUs</span>, 
-    aiming to accelerate core computational tasks in 
-    <span class="highlight-key">computer vision</span>, 
-    <span class="highlight-key">graph analytics</span>, and 
-    <span class="highlight-key">large-scale data processing</span>. 
-    Specifically, I target both <span class="highlight-key">high-end and embedded GPU platforms</span> to design algorithms that are 
+    aiming to accelerate core computational tasks in computer vision, graph analytics, and large-scale data processing. 
+    Specifically, I target both high-end and embedded GPU platforms to design algorithms that are 
     <span class="highlight-key">highly parallel</span>, 
     <span class="highlight-key">computation-efficient</span>, and 
-    <span class="highlight-key">resource-aware</span>, by considering both 
-    <span class="highlight-key">algorithmic structure</span> and 
-    <span class="highlight-key">GPU architectural characteristics</span>.
+    <span class="highlight-key">resource-aware</span>, by considering both algorithmic structure and GPU architectural characteristics.
   </p>
 </div>
+
 
 
 ---
