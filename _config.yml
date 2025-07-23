@@ -4,7 +4,7 @@ site_theme               : "default"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Xiang Li"
-description              : &description "Xiang Li's personal academic website. Ph.D. student at Nanjing University focusing on GPU computing and parallel data processing."
+description              : &description "Xiang Li is a fourth-year Ph.D. student at Nanjing University working on GPU-based high-performance parallel algorithm design. His research accelerates core tasks in computer vision, graph analytics, and large-scale data processing by targeting both high-end and embedded GPU platforms."
 url                      : https://lixiang-lab.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lixiang-lab/lixiang-lab.github.io"
