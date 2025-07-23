@@ -24,7 +24,7 @@ classes: wide
     <ion-icon name="code-working-outline" class="icon-inline"></ion-icon>
     My research focuses on <span class="highlight-key">high-performance parallel algorithm design on GPUs</span>, 
     aiming to accelerate core computational tasks in computer vision, graph analytics, and large-scale data processing. 
-    Specifically, I target both high-end and embedded GPU platforms to design algorithms that are 
+    Specifically, I target both desktop/server GPUs and embedded GPUs to design algorithms that are 
     <span class="highlight-key">highly parallel</span>, 
     <span class="highlight-key">computation-efficient</span>, and 
     <span class="highlight-key">resource-aware</span>, by considering both algorithmic structure and GPU architectural characteristics.
