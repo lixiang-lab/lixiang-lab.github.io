@@ -14,7 +14,7 @@ classes: wide
     <span class="highlight-key">Nanjing University</span>, where I am advised by 
     <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
     <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. 
-    I was admitted directly to the Ph.D. program after receiving my B.Eng. degree from Nanchang University through a merit-based recommendation and exemption from the national graduate entrance exam.
+    I was admitted directly to the Ph.D. program after receiving my B.Eng. degree from Nanchang University via a merit-based recommendation and exemption from the national graduate entrance exam.
   </p>
 </div>
 
@@ -27,7 +27,7 @@ classes: wide
     aiming to accelerate core computational tasks in computer vision, graph analytics, and large-scale data processing. 
     Specifically, I target both desktop/server GPUs and embedded GPUs to design algorithms that are 
     <span class="highlight-key">highly parallel</span>, 
-    <span class="highlight-key">computation-efficient</span>, and 
+    <span class="highlight-key">computationally efficient</span>, and 
     <span class="highlight-key">resource-aware</span>, by considering both algorithmic structure and GPU architectural characteristics.
   </p>
 </div>
@@ -45,7 +45,7 @@ classes: wide
     </td>
     <td style="border: none; padding: 6px 12px;">
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      A paper "3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs" was accepted by
+      A paper "3D GNLM: Efficient 3D Non-Local Means Kernel with Nested Reuse Strategies for Embedded GPUs" is accepted to
       <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
     </td>
   </tr>
@@ -54,7 +54,7 @@ classes: wide
     <td><span class="year-highlight">May 2025</span></td>
     <td>
       <ion-icon name="trophy-outline" style="font-size: 16px; color: goldenrod; margin-right: 4px;"></ion-icon>
-      Award a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
+      Receive a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
     </td>
   </tr>
 
@@ -62,7 +62,7 @@ classes: wide
     <td><span class="year-highlight">Feb 2025</span></td>
     <td>
       <ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
-      Will visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at the Institute of Science Tokyo as a short-term research scholar.
+      Visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at the Institute of Science Tokyo as a short-term research scholar.
     </td>
   </tr>
 
@@ -70,8 +70,8 @@ classes: wide
     <td><span class="year-highlight">Jan 2025</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      A paper "Efficient Parallel Implementation of Non-Local Means Algorithm on GPU" was accepted by 
-      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU 2025</a>.
+      A paper "Efficient Parallel Implementation of Non-Local Means Algorithm on GPU" is accepted to 
+      <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU 2025</a> (Workshop).
     </td>
   </tr>
 
@@ -79,7 +79,7 @@ classes: wide
     <td><span class="year-highlight">Aug 2024</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      A paper "An Optimized GPU Implementation for GIST Descriptor" was accepted by 
+      A paper "An Optimized GPU Implementation for GIST Descriptor" is accepted to 
       <a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a>.
     </td>
   </tr>
@@ -88,7 +88,7 @@ classes: wide
     <td><span class="year-highlight">Mar 2023</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
-      A paper "Multi-directional Sobel operator kernel on GPUs" was accepted by 
+      A paper "Multi-directional Sobel operator kernel on GPUs" is accepted to 
       <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">JPDC</a>.
     </td>
   </tr>
@@ -229,7 +229,7 @@ classes: wide
     </td>
     <td style="padding: 8px;">
       <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Reviewer</strong>, ACM Transactions on Architecture and Code Optimization (TACO)
+      <strong>Reviewer</strong>, ACM Transactions on Architecture and Code Optimization (TACO).
     </td>
   </tr>
 </table>
