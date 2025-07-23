@@ -76,14 +76,16 @@ a:hover::after {
    Name Highlight
 ================================= */
 .my-name {
-  color: #333;
-  font-weight: 600;
-  transition: color 0.3s ease;
+  background: linear-gradient(to right, #ff7043, #ffab91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: filter 0.3s ease;
 }
 
 .pub-item:hover .my-name {
-  color: #ff7043;
+  filter: brightness(1.2);
 }
+
 
 /* ===============================
    Keyword Highlight in Intro Block
