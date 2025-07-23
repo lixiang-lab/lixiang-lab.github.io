@@ -54,7 +54,7 @@ classes: wide
     <td><span class="year-highlight">May 2025</span></td>
     <td>
       <ion-icon name="trophy-outline" style="font-size: 16px; color: goldenrod; margin-right: 4px;"></ion-icon>
-      Awarded a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
+      Award a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
     </td>
   </tr>
 
