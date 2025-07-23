@@ -76,15 +76,18 @@ a:hover::after {
    Name Highlight
 ================================= */
 .my-name {
-  background: linear-gradient(to right, #ff7043, #ffab91);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: filter 0.3s ease;
+  color: #c94e39; /* 橙色 */
+  transition: color 0.3s ease;
 }
 
 .pub-item:hover .my-name {
-  filter: brightness(1.2);
+  color: #ff7043;
+  text-shadow:
+    0 0 4px rgba(255, 112, 67, 0.4),
+    0 0 8px rgba(255, 112, 67, 0.2);
+  transform: scale(1.05);
 }
+
 
 
 /* ===============================
