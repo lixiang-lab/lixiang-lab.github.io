@@ -39,7 +39,7 @@ classes: wide
 <h2 class="section-title"><ion-icon name="newspaper-outline"></ion-icon> News</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
-  <tr>
+  <tr class="news-item">
     <td style="border: none; padding: 6px 12px; width: 15%; vertical-align: top;">
       <span class="year-highlight">Jun 2025</span>
     </td>
@@ -49,24 +49,21 @@ classes: wide
       <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>.
     </td>
   </tr>
-
-  <tr>
+  <tr class="news-item">
     <td><span class="year-highlight">May 2025</span></td>
     <td>
       <ion-icon name="trophy-outline" style="font-size: 16px; color: goldenrod; margin-right: 4px;"></ion-icon>
       Receive a scholarship from the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>) for joint Ph.D. training.
     </td>
   </tr>
-
-  <tr>
+  <tr class="news-item">
     <td><span class="year-highlight">Feb 2025</span></td>
     <td>
       <ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
       Visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at the Institute of Science Tokyo as a short-term research scholar.
     </td>
   </tr>
-
-  <tr>
+  <tr class="news-item">
     <td><span class="year-highlight">Jan 2025</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
@@ -74,8 +71,7 @@ classes: wide
       <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU'25</a>.
     </td>
   </tr>
-
-  <tr>
+  <tr class="news-item">
     <td><span class="year-highlight">Aug 2024</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
@@ -83,8 +79,7 @@ classes: wide
       <a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a>.
     </td>
   </tr>
-
-  <tr>
+  <tr class="news-item">
     <td><span class="year-highlight">Mar 2023</span></td>
     <td>
       <ion-icon name="document-text-outline" style="font-size: 16px; color: #5c5c5c; margin-right: 4px;"></ion-icon>
@@ -94,12 +89,11 @@ classes: wide
   </tr>
 </table>
 
----
-
+<!-- Publications -->
 <h2 class="section-title"><ion-icon name="book-outline"></ion-icon> Publications</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
-  <tr style="border: none;">
+  <tr class="pub-item" style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;" width="20%">
       <a href="https://dl.acm.org/doi/10.1145/3744909">TACO</a>
     </td>
@@ -110,8 +104,7 @@ classes: wide
       </div>
     </td>
   </tr>
-
-  <tr style="border: none;">
+  <tr class="pub-item" style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
       <a href="https://dl.acm.org/doi/10.1145/3725217">TECS</a>
     </td>
@@ -122,8 +115,7 @@ classes: wide
       </div>
     </td>
   </tr>
-
-  <tr style="border: none;">
+  <tr class="pub-item" style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
       <a href="https://dl.acm.org/doi/10.1145/3725798.3725807">GPGPU'25</a>
     </td>
@@ -134,8 +126,7 @@ classes: wide
       </div>
     </td>
   </tr>
-
-  <tr style="border: none;">
+  <tr class="pub-item" style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
       <a href="https://dl.acm.org/doi/10.1145/3689339">TACO</a>
     </td>
@@ -146,8 +137,7 @@ classes: wide
       </div>
     </td>
   </tr>
-
-  <tr style="border: none;">
+  <tr class="pub-item" style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
       <a href="https://www.sciencedirect.com/science/article/pii/S0743731523000400">JPDC</a>
     </td>
@@ -158,8 +148,7 @@ classes: wide
       </div>
     </td>
   </tr>
-
-  <tr style="border: none;">
+  <tr class="pub-item" style="border: none;">
     <td style="border: none; padding: 8px; vertical-align: top;">
       <a href="https://ieeexplore.ieee.org/abstract/document/10160441">ICRA 2023</a>
     </td>
@@ -172,13 +161,11 @@ classes: wide
   </tr>
 </table>
 
-
----
-
+<!-- Education -->
 <h2 class="section-title"><ion-icon name="school-outline"></ion-icon> Education</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
-  <tr>
+  <tr class="pub-item">
     <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
       <span class="year-highlight">2022–present</span>
     </td>
@@ -187,7 +174,7 @@ classes: wide
       <strong>Ph.D. Student</strong>, School of Electronic Science and Engineering, Nanjing University, China.
     </td>
   </tr>
-  <tr>
+  <tr class="pub-item">
     <td style="padding: 6px 12px; vertical-align: top;">
       <span class="year-highlight">2018–2022</span>
     </td>
@@ -198,13 +185,11 @@ classes: wide
   </tr>
 </table>
 
-
----
-
+<!-- Experience -->
 <h2 class="section-title"><ion-icon name="briefcase-outline"></ion-icon> Experience</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
-  <tr>
+  <tr class="pub-item">
     <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
       <span class="year-highlight">Feb 2025–Apr 2025</span>
     </td>
@@ -217,13 +202,11 @@ classes: wide
   </tr>
 </table>
 
-
----
-
+<!-- Academic Service -->
 <h2 class="section-title"><ion-icon name="ribbon-outline"></ion-icon> Academic Service</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
-  <tr>
+  <tr class="pub-item">
     <td style="padding: 8px; width: 20%; vertical-align: top;">
       <span class="year-highlight">2025–present</span>
     </td>
@@ -233,3 +216,4 @@ classes: wide
     </td>
   </tr>
 </table>
+
