@@ -118,3 +118,28 @@ table td {
 .icon-title:hover {
   color: #555;
 }
+
+
+/* 段落外层 hover 块 */
+.intro-block {
+  padding: 16px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.intro-block:hover {
+  background-color: #f5f5f5;
+}
+
+/* 关键词默认状态 */
+.highlight-key {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* 鼠标悬停整块时高亮关键词 */
+.intro-block:hover .highlight-key {
+  color: #ff7043;
+  font-weight: 600;
+  transform: scale(1.05);
+}
+
