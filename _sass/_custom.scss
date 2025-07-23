@@ -76,14 +76,13 @@ a:hover::after {
    Name Highlight
 ================================= */
 .my-name {
+  color: #333;
   font-weight: 600;
-  color: #c94e39;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
-.my-name:hover {
-  color: #ff5722;
-  transform: scale(1.1);
+.pub-item:hover .my-name {
+  color: #ff7043;
 }
 
 /* ===============================
