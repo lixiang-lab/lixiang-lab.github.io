@@ -78,7 +78,7 @@ a:hover::after {
 .my-name {
   color: #ff7043;  /* 默认橙色 */
   display: inline-block;
-  transition: color 1s ease-in-out;
+  transition: color 1s ease;
 }
 
 .pub-item:hover .my-name {
