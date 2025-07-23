@@ -77,14 +77,12 @@ a:hover::after {
 ================================= */
 .my-name {
   color: #ff7043; /* 直接用你原来的高亮橙为默认 */
-  font-weight: 600;
-  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .pub-item:hover .my-name {
   color: #ff8a65; /* 比默认更亮一点 */
-  transform: scale(1.05);
-  text-shadow: 0 0 6px rgba(255, 138, 101, 0.5);
+  transform: scale(1.1);
 }
 
 
