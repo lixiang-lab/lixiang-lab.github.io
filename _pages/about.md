@@ -10,13 +10,14 @@ classes: wide
 <div class="intro-block">
   <p style="font-size: 17px;">
     <ion-icon name="pulse-outline" class="icon-inline"></ion-icon>
-    I am a <span class="highlight-key">fourth-year direct Ph.D. student</span> at the School of Electronic Science and Engineering, 
-    <span class="highlight-key">Nanjing University</span>, advised by 
+    I am a <span class="highlight-key">fourth-year Ph.D. student</span> in the School of Electronic Science and Engineering at 
+    <span class="highlight-key">Nanjing University</span>, where I am advised by 
     <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
     <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. 
-    I received my Bachelor's degree from Nanchang University.
+    I was admitted to the Ph.D. program directly after receiving my B.Eng. degree from Nanchang University.
   </p>
 </div>
+
 
 <!-- 第二段：研究方向 -->
 <div class="intro-block">
