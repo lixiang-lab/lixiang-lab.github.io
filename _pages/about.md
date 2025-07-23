@@ -14,7 +14,7 @@ classes: wide
     <span class="highlight-key">Nanjing University</span>, where I am advised by 
     <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
     <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. 
-    I was admitted to the Ph.D. program directly after receiving my B.Eng. degree from Nanchang University.
+    I was admitted directly to the Ph.D. program after receiving my B.Eng. degree from Nanchang University through a merit-based recommendation and exemption from the national graduate entrance exam.
   </p>
 </div>
 
