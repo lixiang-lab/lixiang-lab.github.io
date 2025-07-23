@@ -6,16 +6,33 @@ permalink: /
 classes: wide
 ---
 
-<p style="font-size: 17px;">
-  <ion-icon name="pulse-outline" style="font-size: 20px; color: #5c5c5c; margin-right: 6px; vertical-align: middle;"></ion-icon>
-  I am a fourth-year direct Ph.D. student at the School of Electronic Science and Engineering, Nanjing University, advised by 
-  <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. I received my Bachelor's degree from Nanchang University, China.
-</p>
+<div class="intro-block">
+  <p style="font-size: 17px;">
+    <ion-icon name="pulse-outline" class="icon-inline"></ion-icon>
+    I am a <span class="highlight-key">fourth-year direct Ph.D. student</span> at the 
+    <span class="highlight-key">School of Electronic Science and Engineering</span>, 
+    <span class="highlight-key">Nanjing University</span>, advised by 
+    <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
+    <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. I received my Bachelor's degree from 
+    <span class="highlight-key">Nanchang University</span>, China.
+  </p>
 
-<p style="font-size: 17px;">
-  <ion-icon name="code-working-outline" style="font-size: 20px; color: #5c5c5c; margin-right: 6px; vertical-align: middle;"></ion-icon>
-  My research focuses on high-performance parallel algorithm design on GPUs, aiming to accelerate core computational tasks in computer vision, graph analytics, and large-scale data processing. Specifically, I target both high-end and embedded GPU platforms to design algorithms that are highly parallel, computation-efficient, and resource-aware, by considering both algorithmic structure and GPU architectural characteristics.
-</p>
+  <p style="font-size: 17px;">
+    <ion-icon name="code-working-outline" class="icon-inline"></ion-icon>
+    My research focuses on <span class="highlight-key">high-performance parallel algorithm design on GPUs</span>, 
+    aiming to accelerate core computational tasks in 
+    <span class="highlight-key">computer vision</span>, 
+    <span class="highlight-key">graph analytics</span>, and 
+    <span class="highlight-key">large-scale data processing</span>. 
+    Specifically, I target both <span class="highlight-key">high-end and embedded GPU platforms</span> to design algorithms that are 
+    <span class="highlight-key">highly parallel</span>, 
+    <span class="highlight-key">computation-efficient</span>, and 
+    <span class="highlight-key">resource-aware</span>, by considering both 
+    <span class="highlight-key">algorithmic structure</span> and 
+    <span class="highlight-key">GPU architectural characteristics</span>.
+  </p>
+</div>
+
 
 ---
 
