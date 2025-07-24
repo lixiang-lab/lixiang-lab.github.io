@@ -76,14 +76,28 @@ a:hover::after {
    Name Highlight
 ================================= */
 .my-name {
-  color: #ff7043;  /* 默认橙色 */
   display: inline-block;
-  transition: color 1s ease;
+  color: #ff7043;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-.pub-item:hover .my-name {
-  color: #00acc1; /* 冷色调靛蓝 */
+/* 添加动画定义 */
+@keyframes rainbow {
+  0%   { color: #ff0000; } /* 红 */
+  16%  { color: #ff9800; } /* 橙 */
+  33%  { color: #ffff00; } /* 黄 */
+  50%  { color: #00ff00; } /* 绿 */
+  66%  { color: #00bcd4; } /* 青 */
+  83%  { color: #3f51b5; } /* 蓝 */
+  100% { color: #9c27b0; } /* 紫 */
 }
+
+/* 悬停时触发动画 */
+.pub-item:hover .my-name {
+  animation: rainbow 4s linear infinite;
+}
+
 
 
 
@@ -123,7 +137,7 @@ a:hover::after {
 
 .news-item:hover .year-highlight,
 .pub-item:hover .year-highlight {
-  color: #00acc1;
+  color: #0066cc;
 }
 
 /* ===============================
