@@ -10,7 +10,7 @@ h2.section-title ion-icon {
 h2.section-title ion-icon:hover {
   transform: scale(1.1);
   color: #999;
-  filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5));
+ // filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5));
 }
 
 /* ===============================
@@ -78,7 +78,7 @@ a:hover::after {
 .my-name {
   color: #ff7043;  /* 默认橙色 */
   display: inline-block;
-  transition: color 1s ease;
+  transition: color 0.5s ease;
 }
 
 .pub-item:hover .my-name {
@@ -119,7 +119,7 @@ a:hover::after {
   color: #ff7043;  /* 默认橙色 */
   display: inline-block;
   font-weight: 500;
-  transition: color 1s ease;
+  transition: color 0.5s ease;
 }
 
 .news-item:hover .year-highlight,
