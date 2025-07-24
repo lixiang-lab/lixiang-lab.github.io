@@ -93,7 +93,9 @@ a:hover::after {
    Keyword Highlight in Intro Block
 ================================= */
 .highlight-key {
-  transition: color 0.5s ease, transform 0.5s ease;
+  color: #ff7043;  /* 默认橙色 */
+  display: inline-block;
+  transition: color 0.5s ease;
 }
 
 .intro-block {
@@ -107,7 +109,7 @@ a:hover::after {
 }
 
 .intro-block:hover .highlight-key {
-  color: #ff7043;
+  color: #4fc3f7; 
   /* font-weight: 600; */
   /* transform: scale(1.05); */
 }
