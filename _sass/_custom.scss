@@ -18,7 +18,7 @@ h2.section-title ion-icon:hover {
 ================================= */
 a {
   font-weight: 400;
-  color: #c9a4ff;
+  color: #f78c6b;
   text-decoration: none;
   position: relative;
   transition: color 0.3s ease;
@@ -38,7 +38,7 @@ a::after {
 }
 
 a:hover {
-  color: #9c27b0;
+  color: #ff7043;
 }
 
 a:hover::after {
@@ -77,13 +77,13 @@ a:hover::after {
    Name Highlight
 ================================= */
 .my-name {
-  color: #c9a4ff;  /* 默认橙色 */
+  color: #f78c6b;  /* 默认橙色 */
   display: inline-block;
   transition: color 0.5s ease;
 }
 
 .pub-item:hover .my-name {
-  color: #9c27b0; 
+  color: #ff7043; 
 }
 
 
@@ -94,7 +94,7 @@ a:hover::after {
    Keyword Highlight in Intro Block
 ================================= */
 .highlight-key {
-  color: #c9a4ff;  /* 默认橙色 */
+  color: #f78c6b;  /* 默认橙色 */
   display: inline-block;
   transition: color 0.5s ease;
 }
@@ -110,7 +110,7 @@ a:hover::after {
 }
 
 .intro-block:hover .highlight-key {
-  color: #9c27b0; 
+  color: #ff7043; 
   /* font-weight: 600; */
   /* transform: scale(1.05); */
 }
@@ -119,7 +119,7 @@ a:hover::after {
    Year Highlight (News / Publications)
 ================================= */
 .year-highlight {
-  color: #c9a4ff;  /* 默认橙色 */
+  color: #f78c6b;  /* 默认橙色 */
   display: inline-block;
   font-weight: 500;
   transition: color 0.5s ease;
@@ -127,7 +127,7 @@ a:hover::after {
 
 .news-item:hover .year-highlight,
 .pub-item:hover .year-highlight {
-  color: #9c27b0;
+  color: #ff7043;
 }
 
 /* ===============================
