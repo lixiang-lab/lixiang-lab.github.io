@@ -10,7 +10,7 @@ h2.section-title ion-icon {
 h2.section-title ion-icon:hover {
   transform: scale(1.1);
   color: #999;
- // filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5));
+  /* filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5)); */
 }
 
 /* ===============================
@@ -18,7 +18,7 @@ h2.section-title ion-icon:hover {
 ================================= */
 a {
   font-weight: 400;
-  color: #f78c6b;
+  color: #ff7043;
   text-decoration: none;
   position: relative;
   transition: color 0.3s ease;
@@ -77,26 +77,23 @@ a:hover::after {
    Name Highlight
 ================================= */
 .my-name {
-  color: #f78c6b;  /* 默认橙色 */
+  color: #ff7043;  /* 默认橙色 */
   display: inline-block;
-  transition: color 0.5s ease;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .pub-item:hover .my-name {
-  color: #ff7043; 
+  transform: scale(1.05);
+  text-shadow: 0 0 4px rgba(255,112,67,0.4);
 }
-
-
-
-
 
 /* ===============================
    Keyword Highlight in Intro Block
 ================================= */
 .highlight-key {
-  color: #f78c6b;  /* 默认橙色 */
+  color: #ff7043;  /* 默认橙色 */
   display: inline-block;
-  transition: color 0.5s ease;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .intro-block {
@@ -110,24 +107,24 @@ a:hover::after {
 }
 
 .intro-block:hover .highlight-key {
-  color: #ff7043; 
-  /* font-weight: 600; */
-  /* transform: scale(1.05); */
+  transform: scale(1.05);
+  text-shadow: 0 0 4px rgba(255,112,67,0.4);
 }
 
 /* ===============================
    Year Highlight (News / Publications)
 ================================= */
 .year-highlight {
-  color: #f78c6b;  /* 默认橙色 */
+  color: #ff7043;  /* 默认橙色 */
   display: inline-block;
   font-weight: 500;
-  transition: color 0.5s ease;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .news-item:hover .year-highlight,
 .pub-item:hover .year-highlight {
-  color: #ff7043;
+  transform: scale(1.05);
+  text-shadow: 0 0 4px rgba(255,112,67,0.4);
 }
 
 /* ===============================
