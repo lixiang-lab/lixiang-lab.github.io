@@ -214,6 +214,14 @@ classes: wide
       <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
       <strong>Reviewer</strong>, ACM Transactions on Architecture and Code Optimization (TACO).
     </td>
+    <td style="padding: 8px; width: 20%; vertical-align: top;">
+      <span class="year-highlight">2025–present</span>
+    </td>
+    <td style="padding: 8px;">
+      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Reviewer</strong>, The Journal of Supercomputing (TJSC).
+    </td>
+    
   </tr>
 </table>
 
