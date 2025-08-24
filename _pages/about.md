@@ -39,6 +39,17 @@ classes: wide
 <h2 class="section-title"><ion-icon name="newspaper-outline"></ion-icon> News</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
+<!-- Future two-year appointment (currently hidden)
+<tr class="news-item">
+<td><span class="year-highlight">Oct 2025</span></td>
+<td>
+<ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
+Begin two-year appointment as a Visiting Junior Fellow at 
+<a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a>, Institute of Science Tokyo 
+(CSC Joint Ph.D. Program).
+</td>
+</tr>
+-->
   <tr class="news-item">
     <td style="border: none; padding: 6px 12px; width: 15%; vertical-align: top;">
       <span class="year-highlight">Jun 2025</span>
@@ -60,7 +71,7 @@ classes: wide
     <td><span class="year-highlight">Feb 2025</span></td>
     <td>
       <ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
-      Visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a> at the Institute of Science Tokyo as a short-term research scholar.
+      Join <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a>, Institute of Science Tokyo, as a Visiting Junior Fellow.
     </td>
   </tr>
   <tr class="news-item">
@@ -195,11 +206,22 @@ classes: wide
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="person-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Visiting Researcher</strong>, Institute of Science Tokyo, Japan.  
-      Conducted research on GPU-accelerated graph algorithms at
-      <a href="https://www.lsc.c.titech.ac.jp/miyazaki" target="_blank">Miyazaki Lab</a>.
+      <strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.  
     </td>
   </tr>
+
+  <!-- Future two-year appointment (currently hidden)
+  <tr class="pub-item">
+    <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
+      <span class="year-highlight">Oct 2025–Sep 2027</span>
+    </td>
+    <td style="padding: 6px 12px;">
+      <ion-icon name="person-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.  
+    </td>
+  </tr>
+  -->
+
 </table>
 
 <!-- Academic Service -->
