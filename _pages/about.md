@@ -12,8 +12,9 @@ classes: wide
     <ion-icon name="pulse-outline" class="icon-inline"></ion-icon>
     I am a <span class="highlight-key">fourth-year Ph.D. student</span> in the School of Electronic Science and Engineering, 
     <span class="highlight-key">Nanjing University</span>, under the supervision of 
-    <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and 
-    <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>. 
+    <a href="https://www.yunligroup.org/">Prof. Yun Li</a>, 
+    <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>, and 
+    <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Prof. Jun Miyazaki</a>. 
     I was admitted directly to the Ph.D. program after receiving my B.Eng. degree from Nanchang University via a merit-based recommendation and exemption from the national graduate entrance exam.
   </p>
 </div>
@@ -50,6 +51,13 @@ Begin two-year appointment as a Visiting Junior Fellow at
 </td>
 </tr>
 -->
+  <tr class="news-item">
+    <td><span class="year-highlight">Oct 2025</span></td>
+    <td>
+      <ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
+      Visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a>, Institute of Science Tokyo, as a Visiting Junior Fellow.
+    </td>
+  </tr>
   <tr class="news-item">
     <td style="border: none; padding: 6px 12px; width: 15%; vertical-align: top;">
       <span class="year-highlight">Jun 2025</span>
