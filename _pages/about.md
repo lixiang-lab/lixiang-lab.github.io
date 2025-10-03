@@ -55,7 +55,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
     <td><span class="year-highlight">Oct 2025</span></td>
     <td>
       <ion-icon name="airplane-outline" style="font-size: 16px; color: #0077b6; margin-right: 4px;"></ion-icon>
-      Visit <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Miyazaki Lab</a>, Institute of Science Tokyo, as a Visiting Junior Fellow.
+      Oct 2025  Join the Miyazaki Lab, Institute of Science Tokyo, as a Visiting Junior Fellow under the support of the China Scholarship Council (<a href="https://www.csc.edu.cn/">CSC</a>).
     </td>
   </tr>
   <tr class="news-item">
