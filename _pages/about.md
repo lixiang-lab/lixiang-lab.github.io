@@ -186,7 +186,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr class="pub-item">
     <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
-      <span class="year-highlight">2022–present</span>
+      <span class="year-highlight">Sep 2022–present</span>
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="school-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
@@ -195,7 +195,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
   </tr>
   <tr class="pub-item">
     <td style="padding: 6px 12px; vertical-align: top;">
-      <span class="year-highlight">2018–2022</span>
+      <span class="year-highlight">Sep 2018–Jun 2022</span>
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="school-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
