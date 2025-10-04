@@ -238,22 +238,32 @@ Begin two-year appointment as a Visiting Junior Fellow at
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr class="pub-item">
     <td style="padding: 8px; width: 20%; vertical-align: top;">
-      <span class="year-highlight">2025–present</span>
+      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Reviewer</strong>, ACM Transactions on Architecture and Code Optimization (TACO).
+      IEEE International Conference on Robotics and Automation (ICRA), 2026
     </td>
   </tr>
   <tr class="pub-item">
     <td style="padding: 8px; width: 20%; vertical-align: top;">
-      <span class="year-highlight">2025–present</span>
+      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
+      ACM Transactions on Architecture and Code Optimization (TACO), 2025
+    </td>
+  </tr>
+  <tr class="pub-item">
+    <td style="padding: 8px; width: 20%; vertical-align: top;">
       <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Reviewer</strong>, The Journal of Supercomputing (TJSC).
+      <strong>Reviewer</strong>
+    </td>
+    <td style="padding: 8px;">
+      The Journal of Supercomputing (TJSC), 2025
     </td>
   </tr>
 </table>
+
 
 
