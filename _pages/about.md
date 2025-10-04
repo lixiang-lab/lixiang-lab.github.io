@@ -251,7 +251,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      ACM Transactions on Architecture and Code Optimization (<a href="https://dl.acm.org/journal/taco">/a>TACO)
+      ACM Transactions on Architecture and Code Optimization (<a href="https://dl.acm.org/journal/taco">TACO</a>)
     </td>
   </tr>
   <tr class="pub-item">
@@ -260,7 +260,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      The Journal of Supercomputing (TJSC)
+      The Journal of Supercomputing (<a href="https://link.springer.com/journal/11227">TJSC</a>)
     </td>
   </tr>
 </table>
