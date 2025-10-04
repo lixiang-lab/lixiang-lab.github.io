@@ -3,7 +3,7 @@ layout: single
 title: "Xiang Li"
 author_profile: true
 permalink: /
-classes: full
+classes: wide
 ---
 
 <!-- 第一段：基本信息 -->
@@ -242,7 +242,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      IEEE International Conference on Robotics and Automation (ICRA), 2026
+      IEEE International Conference on Robotics and Automation (<a href="https://2026.ieee-icra.org/ICRA">ICRA</a>), 2026
     </td>
   </tr>
   <tr class="pub-item">
@@ -251,7 +251,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      ACM Transactions on Architecture and Code Optimization (TACO), 2025
+      ACM Transactions on Architecture and Code Optimization (<a href="https://dl.acm.org/journal/taco">/a>TACO)
     </td>
   </tr>
   <tr class="pub-item">
@@ -260,7 +260,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      The Journal of Supercomputing (TJSC), 2025
+      The Journal of Supercomputing (TJSC)
     </td>
   </tr>
 </table>
