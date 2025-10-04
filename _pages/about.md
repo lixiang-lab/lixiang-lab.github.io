@@ -3,7 +3,7 @@ layout: single
 title: "Xiang Li"
 author_profile: true
 permalink: /
-classes: wide
+classes: full
 ---
 
 <!-- 第一段：基本信息 -->
