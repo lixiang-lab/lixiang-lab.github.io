@@ -186,7 +186,7 @@ Begin two-year appointment as a Visiting Junior Fellow at
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
   <tr class="pub-item">
     <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
-      <span class="year-highlight">Sep 2022–present</span>
+      <span class="year-highlight">Sep 2022–Present</span>
     </td>
     <td style="padding: 6px 12px;">
       <ion-icon name="school-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
@@ -208,6 +208,17 @@ Begin two-year appointment as a Visiting Junior Fellow at
 <h2 class="section-title"><ion-icon name="briefcase-outline"></ion-icon> Experience</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
+
+
+  <tr class="pub-item">
+    <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
+      <span class="year-highlight">Oct 2025–Present</span>
+    </td>
+    <td style="padding: 6px 12px;">
+      <ion-icon name="person-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.  
+    </td>
+  </tr>
   <tr class="pub-item">
     <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
       <span class="year-highlight">Feb 2025–Apr 2025</span>
@@ -217,18 +228,6 @@ Begin two-year appointment as a Visiting Junior Fellow at
       <strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.  
     </td>
   </tr>
-
-  <!-- Future two-year appointment (currently hidden)
-  <tr class="pub-item">
-    <td style="padding: 6px 12px; width: 20%; vertical-align: top;">
-      <span class="year-highlight">Oct 2025–Sep 2027</span>
-    </td>
-    <td style="padding: 6px 12px;">
-      <ion-icon name="person-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
-      <strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.  
-    </td>
-  </tr>
-  -->
 
 </table>
 
