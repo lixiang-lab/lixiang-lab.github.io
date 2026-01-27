@@ -231,37 +231,88 @@ Begin two-year appointment as a Visiting Junior Fellow at
 </table>
 
 <!-- Academic Service -->
-<h2 class="section-title"><ion-icon name="ribbon-outline"></ion-icon> Academic Service</h2>
+<h2 class="section-title">
+  <ion-icon name="ribbon-outline"></ion-icon> Academic Service
+</h2>
 
 <table class="table-hover" style="border-collapse: collapse; border: none; font-size: 17px;">
+
+  <!-- Conferences -->
+  <tr>
+    <td colspan="2" style="padding: 10px 8px 4px 8px; font-weight: 600; color: #444;">
+      Conferences
+    </td>
+  </tr>
+
   <tr class="pub-item">
     <td style="padding: 8px; width: 20%; vertical-align: top;">
-      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <ion-icon name="shield-checkmark-outline"
+        style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      IEEE International Conference on Robotics and Automation (<a href="https://2026.ieee-icra.org/ICRA">ICRA</a>), 2026
+      IEEE International Conference on Robotics and Automation
+      (<a href="https://2026.ieee-icra.org/ICRA">ICRA</a>), 2026
     </td>
   </tr>
+
+  <!-- Journals -->
+  <tr>
+    <td colspan="2" style="padding: 14px 8px 4px 8px; font-weight: 600; color: #444;">
+      Journals
+    </td>
+  </tr>
+
   <tr class="pub-item">
     <td style="padding: 8px; width: 20%; vertical-align: top;">
-      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <ion-icon name="shield-checkmark-outline"
+        style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      ACM Transactions on Architecture and Code Optimization (<a href="https://dl.acm.org/journal/taco">TACO</a>)
+      ACM Transactions on Architecture and Code Optimization
+      (<a href="https://dl.acm.org/journal/taco">TACO</a>)
     </td>
   </tr>
+
   <tr class="pub-item">
     <td style="padding: 8px; width: 20%; vertical-align: top;">
-      <ion-icon name="shield-checkmark-outline" style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <ion-icon name="shield-checkmark-outline"
+        style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
       <strong>Reviewer</strong>
     </td>
     <td style="padding: 8px;">
-      The Journal of Supercomputing (<a href="https://link.springer.com/journal/11227">TJSC</a>)
+      ACM Transactions on Embedded Computing Systems
+      (<a href="https://dl.acm.org/journal/tecs">TECS</a>)
     </td>
   </tr>
+
+  <tr class="pub-item">
+    <td style="padding: 8px; width: 20%; vertical-align: top;">
+      <ion-icon name="shield-checkmark-outline"
+        style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Reviewer</strong>
+    </td>
+    <td style="padding: 8px;">
+      ACM Transactions on Parallel Computing
+      (<a href="https://dl.acm.org/journal/topc">TOPC</a>)
+    </td>
+  </tr>
+
+  <tr class="pub-item">
+    <td style="padding: 8px; width: 20%; vertical-align: top;">
+      <ion-icon name="shield-checkmark-outline"
+        style="font-size: 18px; color: #666; margin-right: 6px;"></ion-icon>
+      <strong>Reviewer</strong>
+    </td>
+    <td style="padding: 8px;">
+      The Journal of Supercomputing
+      (<a href="https://link.springer.com/journal/11227">TJSC</a>)
+    </td>
+  </tr>
+
 </table>
+
 
 
 
