@@ -13,7 +13,7 @@ classes: wide
     I am a <span class="highlight-key">fourth-year Ph.D. student</span> in the School of Electronic Science and Engineering, 
     <span class="highlight-key">Nanjing University</span>, under the supervision of 
     <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>, 
-    <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and  <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Prof. Jun Miyazaki</a>. 
+    <a href="https://www.yunligroup.org/">Prof. Yun Li</a> and  <a href="https://www.lsc.c.titech.ac.jp/miyazaki/">Prof. Jun Miyazaki</a>. 
     I was admitted directly to the Ph.D. program after receiving my B.Eng. degree from Nanchang University via a merit-based recommendation and exemption from the national graduate entrance exam.
   </p>
 </div>
