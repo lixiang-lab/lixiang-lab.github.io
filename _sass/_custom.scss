@@ -1,104 +1,76 @@
 :root {
   --site-red: rgb(255, 128, 128);
   --site-blue: rgb(88, 182, 233);
+
   --text-main: #243140;
   --text-soft: #667085;
-  --line-soft: rgba(88, 182, 233, 0.16);
+  --line-soft: rgba(88, 182, 233, 0.18);
+
   --card-bg: #ffffff;
-  --card-border: rgba(36, 49, 64, 0.07);
-  --card-shadow: 0 10px 24px rgba(20, 40, 70, 0.06);
+  --card-border: rgba(36, 49, 64, 0.08);
+  --card-shadow: 0 10px 24px rgba(20, 40, 70, 0.08);
 }
 
 /* ===============================
-   Global page background
+   Global Background
 ================================= */
+html,
 body {
-  background: #f5f7fb;
+  min-height: 100%;
 }
 
+body {
+  background: url("/images/home-bg-padded.jpg") center top / cover no-repeat fixed;
+}
+
+/* 去掉主题默认的大块背景 */
 .initial-content,
 .page,
 .page__inner-wrap,
-.archive {
+.archive,
+.layout--single,
+.page__content {
   background: transparent !important;
 }
 
-/* ===============================
-   Main content shell
-   只在正文区域显示背景，不铺满整页
-   双层背景：
-   1) 底层 cover + blur：负责边缘填充
-   2) 上层 contain：尽量显示整张竖图
-================================= */
-.home-shell {
-  position: relative;
-  padding: 1.4rem;
-  margin-bottom: 1rem;
-  isolation: isolate;
-  overflow: hidden;
-  background: transparent;
+/* 顶部导航稍微稳一点 */
+.masthead {
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(36, 49, 64, 0.06);
 }
 
-.home-shell::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url("/images/home-bg.jpg") center top / contain no-repeat;
-  opacity: 0.23;
-  filter: saturate(0.95) blur(0.5px);
-  z-index: -1;
-  pointer-events: none;
-
-  -webkit-mask-image: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 1) 54%,
-    rgba(0, 0, 0, 0.88) 72%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  mask-image: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 1) 54%,
-    rgba(0, 0, 0, 0.88) 72%,
-    rgba(0, 0, 0, 0) 100%
-  );
+.greedy-nav {
+  background: transparent !important;
 }
 
-.home-shell::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url("/images/home-bg.jpg") center top / cover no-repeat;
-  opacity: 0.10;
-  filter: blur(18px) saturate(0.9);
-  transform: scale(1.05);
-  z-index: -2;
-  pointer-events: none;
+.greedy-nav a {
+  color: var(--text-main) !important;
+}
 
-  -webkit-mask-image: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 0.92) 38%,
-    rgba(0, 0, 0, 0.45) 74%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  mask-image: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 0.92) 38%,
-    rgba(0, 0, 0, 0.45) 74%,
-    rgba(0, 0, 0, 0) 100%
-  );
+.greedy-nav .visible-links a:hover {
+  color: var(--site-blue) !important;
 }
 
 /* ===============================
-   Main text
+   Main Content
 ================================= */
 .page__content {
   color: var(--text-main);
   font-size: 16.5px;
-  line-height: 1.8;
+  line-height: 1.85;
+}
+
+.home-shell {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
 }
 
 /* ===============================
-   Links
+   Link Styles
 ================================= */
 .page__content a {
   color: var(--site-blue) !important;
@@ -113,19 +85,19 @@ body {
 }
 
 /* ===============================
-   Intro card
+   Intro Card
 ================================= */
 .intro-card {
   margin-bottom: 1.5rem;
   padding: 1.2rem 1.35rem;
-  background: #ffffff;
+  background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 18px;
   box-shadow: var(--card-shadow);
 }
 
 .intro-text {
-  margin: 0 0 0.9rem 0;
+  margin: 0 0 0.95rem 0;
   font-size: 1.05rem;
   line-height: 1.9;
 }
@@ -135,11 +107,11 @@ body {
 }
 
 /* ===============================
-   Section titles
+   Section Titles
 ================================= */
 h2.section-title {
   margin-top: 2rem;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.9rem;
   padding-bottom: 0.35rem;
   font-size: 1.58rem;
   font-weight: 700;
@@ -161,26 +133,26 @@ h2.section-title ion-icon:hover {
 }
 
 /* ===============================
-   Section cards
+   Section Cards
 ================================= */
 .section-card {
   margin-bottom: 1.2rem;
-  padding: 0.85rem 1rem;
-  background: #ffffff;
+  padding: 0.9rem 1rem;
+  background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 18px;
   box-shadow: var(--card-shadow);
 }
 
 .subsection-label {
-  margin: 0.2rem 0 0.45rem 0;
+  margin: 0.25rem 0 0.45rem 0;
   font-size: 1rem;
   font-weight: 700;
   color: var(--text-main);
 }
 
 /* ===============================
-   Highlight text
+   Highlight Text
 ================================= */
 .name-highlight,
 .key-highlight {
@@ -189,7 +161,7 @@ h2.section-title ion-icon:hover {
 }
 
 /* ===============================
-   Date / reviewer style
+   Date / Role
 ================================= */
 .date-text,
 .role-text {
@@ -200,7 +172,7 @@ h2.section-title ion-icon:hover {
 }
 
 /* ===============================
-   News icons
+   News Icons
 ================================= */
 .item-icon {
   font-size: 16px;
@@ -242,6 +214,7 @@ table.table-clean td {
   vertical-align: top;
 }
 
+/* 日期列固定单行 */
 .news-table td:first-child,
 .meta-table td:first-child {
   width: 175px;
@@ -259,7 +232,7 @@ table.table-clean td {
 }
 
 /* ===============================
-   Row hover
+   Row Hover
 ================================= */
 .entry-row {
   transition: background-color 0.22s ease;
@@ -277,21 +250,67 @@ table.table-clean td {
   background: transparent !important;
 }
 
+.author__avatar img {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 18px rgba(20, 40, 70, 0.08);
+}
+
 .author__content,
 .author__urls-wrapper {
   background: transparent !important;
 }
 
+.author__name,
+.author__bio,
+.author__urls li a,
+.author__urls li {
+  color: var(--text-main) !important;
+}
+
+.author__urls li a:hover {
+  color: var(--site-blue) !important;
+}
+
+/* ===============================
+   Optional: Sidebar Card Feel
+   如果你不想左侧太散，可以保留；
+   如果不喜欢，就把这一段删掉
+================================= */
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+}
+
+/* ===============================
+   Footer
+================================= */
+.page__footer {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-top: 1px solid rgba(36, 49, 64, 0.06);
+}
+
+.page__footer-follow,
+.page__footer-copyright {
+  color: var(--text-soft);
+}
+
 /* ===============================
    Responsive
 ================================= */
-@media (max-width: 768px) {
-  .home-shell {
-    padding: 1rem;
+@media (max-width: 1024px) {
+  body {
+    background-position: center top;
+    background-attachment: scroll;
   }
+}
 
-  .intro-card {
-    padding: 1rem 1rem;
+@media (max-width: 768px) {
+  .intro-card,
+  .section-card {
+    padding: 1rem;
+    border-radius: 16px;
   }
 
   .intro-text {
@@ -314,5 +333,13 @@ table.table-clean td {
 
   .service-table td:first-child {
     width: 95px;
+  }
+
+  h2.section-title {
+    font-size: 1.42rem;
+  }
+
+  h2.section-title ion-icon {
+    font-size: 24px;
   }
 }
