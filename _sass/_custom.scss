@@ -19,14 +19,7 @@ body {
   min-height: 100%;
 }
 
-body {
-  background:
-    linear-gradient(
-      rgba(255, 255, 255, 0.56),
-      rgba(255, 255, 255, 0.56)
-    ),
-    url("/images/home-bg-padded.jpg") center top / cover no-repeat fixed;
-}
+
 
 /* 去掉主题默认的大块背景 */
 .initial-content,
