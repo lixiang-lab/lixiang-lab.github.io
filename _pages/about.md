@@ -19,10 +19,7 @@ classes: wide
     </p>
 
     <p class="intro-text">
-      My research focuses on
-      <span class="key-highlight">GPU computing and high-performance parallel algorithm design</span>
-      for computer vision, graph analytics, and large-scale data processing, with particular interest in
-      <span class="key-highlight">desktop, server, and embedded GPUs</span>.
+      My research focuses on <span class="name-highlight">GPU-based high-performance parallel algorithm design</span> for computer vision, graph processing, and large-scale data processing, with a particular interest in architecture-aware optimization on mobile, server, and embedded GPU platforms.
     </p>
   </div>
 
