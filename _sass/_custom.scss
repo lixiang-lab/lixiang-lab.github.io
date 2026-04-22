@@ -3,14 +3,30 @@
   --site-blue: rgb(88, 182, 233);
   --text-main: #243140;
   --text-soft: #667085;
-  --line-soft: rgba(88, 182, 233, 0.18);
-  --card-bg: rgba(255, 255, 255, 0.88);
-  --card-border: rgba(88, 182, 233, 0.22);
-  --card-shadow: 0 12px 28px rgba(25, 45, 75, 0.07);
+  --line-soft: rgba(88, 182, 233, 0.16);
+  --card-bg: rgba(255, 255, 255, 0.72);
+  --card-border: rgba(255, 255, 255, 0.18);
+  --card-shadow: 0 10px 24px rgba(20, 40, 70, 0.05);
 }
 
 /* ===============================
-   Main Content
+   Whole-page background
+================================= */
+body {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.80)),
+    url("/images/home-bg.jpg") center center / cover fixed no-repeat;
+}
+
+.initial-content,
+.page,
+.page__inner-wrap,
+.archive {
+  background: transparent !important;
+}
+
+/* ===============================
+   Main text
 ================================= */
 .page__content {
   color: var(--text-main);
@@ -34,42 +50,30 @@
 }
 
 /* ===============================
-   Hero Banner
+   Intro block
 ================================= */
-.hero-banner {
-  min-height: 340px;
-  margin: 0 0 2rem 0;
+.intro-card {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem 1.35rem;
+  background: rgba(255, 255, 255, 0.58);
+  border: none;
   border-radius: 18px;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  background-size: cover;
-  background-position: center center;
+  backdrop-filter: blur(8px);
   box-shadow: var(--card-shadow);
 }
 
-.hero-overlay {
-  width: min(920px, calc(100% - 2rem));
-  margin: 0 0 1.2rem 1.2rem;
-  padding: 1.15rem 1.35rem;
-  background: rgba(255, 255, 255, 0.84);
-  border: 1px solid var(--card-border);
-  border-radius: 16px;
-  backdrop-filter: blur(8px);
-}
-
-.hero-text {
-  margin: 0 0 0.6rem 0;
+.intro-text {
+  margin: 0 0 0.9rem 0;
   font-size: 1.05rem;
-  line-height: 1.85;
+  line-height: 1.9;
 }
 
-.hero-text:last-child {
+.intro-text:last-child {
   margin-bottom: 0;
 }
 
 /* ===============================
-   Section Titles
+   Section titles
 ================================= */
 h2.section-title {
   margin-top: 2rem;
@@ -95,16 +99,16 @@ h2.section-title ion-icon:hover {
 }
 
 /* ===============================
-   Section Card
+   Section cards
 ================================= */
 .section-card {
   margin-bottom: 1.2rem;
-  padding: 0.8rem 1rem;
+  padding: 0.85rem 1rem;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-radius: 16px;
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
   box-shadow: var(--card-shadow);
-  backdrop-filter: blur(6px);
 }
 
 .subsection-label {
@@ -115,7 +119,7 @@ h2.section-title ion-icon:hover {
 }
 
 /* ===============================
-   Highlights
+   Highlight text
 ================================= */
 .name-highlight,
 .key-highlight {
@@ -124,13 +128,34 @@ h2.section-title ion-icon:hover {
 }
 
 /* ===============================
-   Dates
+   Date style
 ================================= */
 .date-text {
   color: var(--text-soft) !important;
   font-weight: 500;
   white-space: nowrap;
   word-break: keep-all;
+}
+
+/* ===============================
+   Small icons in list items
+================================= */
+.item-icon {
+  font-size: 16px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.icon-blue {
+  color: var(--site-blue);
+}
+
+.icon-red {
+  color: var(--site-red);
+}
+
+.icon-gray {
+  color: #7b8794;
 }
 
 /* ===============================
@@ -157,7 +182,7 @@ table.table-clean td {
 
 .news-table td:first-child,
 .meta-table td:first-child {
-  width: 170px;
+  width: 175px;
   white-space: nowrap;
 }
 
@@ -172,7 +197,7 @@ table.table-clean td {
 }
 
 /* ===============================
-   Row Hover
+   Row hover
 ================================= */
 .entry-row {
   transition: background-color 0.22s ease;
@@ -180,26 +205,32 @@ table.table-clean td {
 }
 
 .entry-row:hover {
-  background-color: rgba(88, 182, 233, 0.06) !important;
+  background-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+/* ===============================
+   Sidebar refinement
+================================= */
+.sidebar {
+  background: transparent !important;
+}
+
+.author__content,
+.author__urls-wrapper {
+  background: transparent !important;
 }
 
 /* ===============================
    Responsive
 ================================= */
 @media (max-width: 768px) {
-  .hero-banner {
-    min-height: 260px;
+  .intro-card {
+    padding: 1rem 1rem;
   }
 
-  .hero-overlay {
-    width: calc(100% - 1.2rem);
-    margin: 0 0 0.65rem 0.6rem;
-    padding: 0.95rem 1rem;
-  }
-
-  .hero-text {
+  .intro-text {
     font-size: 1rem;
-    line-height: 1.75;
+    line-height: 1.8;
   }
 
   table.table-clean td {
