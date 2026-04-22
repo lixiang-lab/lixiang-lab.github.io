@@ -1,30 +1,125 @@
-/* ===============================
-   Section Icon (h2 headers)
-================================= */
-h2.section-title ion-icon {
-  font-size: 30px;
-  color: #666;
-  transition: color 0.2s ease, transform 0.2s ease;
+:root {
+  --site-red: rgb(255, 128, 128);
+  --site-blue: rgb(88, 182, 233);
+  --text-main: #253140;
+  --text-soft: #6b7280;
+  --card-bg: rgba(255, 255, 255, 0.84);
+  --card-border: rgba(88, 182, 233, 0.28);
+  --card-shadow: 0 12px 30px rgba(20, 40, 70, 0.08);
 }
 
-h2.section-title ion-icon:hover {
-  transform: scale(1.1);
-  color: #999;
-  /* filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5)); */
+/* ===============================
+   Homepage Wrapper
+================================= */
+.home-page {
+  color: var(--text-main);
+  font-size: 16.5px;
+}
+
+/* ===============================
+   Hero Banner
+================================= */
+.home-page .hero-banner {
+  position: relative;
+  min-height: 330px;
+  margin: 0 0 2rem 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(20, 30, 45, 0.18), rgba(20, 30, 45, 0.28)),
+    url("/images/home-bg.jpg") center center / cover no-repeat;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  align-items: flex-end;
+}
+
+.home-page .hero-overlay {
+  width: min(920px, calc(100% - 2rem));
+  margin: 0 0 1.2rem 1.2rem;
+  padding: 1.15rem 1.35rem;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.home-page .hero-kicker {
+  margin: 0 0 0.45rem 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--site-blue);
+}
+
+.home-page .hero-text {
+  margin: 0 0 0.55rem 0;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.home-page .hero-text:last-child {
+  margin-bottom: 0;
+}
+
+/* ===============================
+   Section Titles
+================================= */
+.home-page h2.section-title {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(88, 182, 233, 0.16);
+  color: var(--text-main);
+}
+
+.home-page h2.section-title ion-icon {
+  font-size: 28px;
+  color: var(--site-blue);
+  vertical-align: -4px;
+  margin-right: 6px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.home-page h2.section-title ion-icon:hover {
+  transform: scale(1.06);
+  color: var(--site-red);
+}
+
+/* ===============================
+   Section Cards
+================================= */
+.home-page .section-card {
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: blur(6px);
+}
+
+.home-page .subsection-label {
+  margin: 0.2rem 0 0.4rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-main);
 }
 
 /* ===============================
    Link Styles
 ================================= */
-a {
+.home-page a {
   font-weight: 400;
-  color: #ff7043;
+  color: var(--site-blue);
   text-decoration: none;
   position: relative;
-  transition: color 0.3s ease;
+  transition: color 0.25s ease;
 }
 
-a::after {
+.home-page a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -33,138 +128,112 @@ a::after {
   height: 1px;
   background: currentColor;
   transform: scaleX(0);
-  transition: transform 0.3s ease;
   transform-origin: left;
+  transition: transform 0.25s ease;
 }
 
-a:hover {
-  color: #ff7043;
+.home-page a:hover {
+  color: var(--site-blue);
 }
 
-a:hover::after {
+.home-page a:hover::after {
   transform: scaleX(1);
 }
 
 /* ===============================
-   Icon Styles
+   Highlight Styles
 ================================= */
-.icon-inline {
+.home-page .highlight-key,
+.home-page .my-name,
+.home-page .year-highlight {
+  color: var(--site-red);
+  font-weight: 600;
+}
+
+/* ===============================
+   Tables
+================================= */
+.home-page table,
+.home-page table td,
+.home-page table tr {
+  border: none !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background: transparent !important;
+}
+
+.home-page table.table-clean,
+.home-page table.table-hover {
+  width: 100%;
+  font-size: 16.5px;
+}
+
+.home-page table td {
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+.home-page .news-table td:first-child,
+.home-page .meta-table td:first-child,
+.home-page .service-table td:first-child {
+  width: 18%;
+}
+
+.home-page .pub-table td:first-child {
+  width: 14%;
+}
+
+/* ===============================
+   Hover Rows
+================================= */
+.home-page .news-item,
+.home-page .pub-item {
+  transition: background-color 0.25s ease;
+  border-radius: 10px;
+}
+
+.home-page .news-item:hover,
+.home-page .pub-item:hover {
+  background-color: rgba(88, 182, 233, 0.08) !important;
+}
+
+/* ===============================
+   Utility Icons
+================================= */
+.home-page .icon-inline {
   font-size: 16px;
-  color: #5c5c5c;
+  color: var(--site-blue);
   margin-right: 6px;
   vertical-align: text-bottom;
 }
 
-.icon-gold {
-  color: goldenrod;
-}
-
-.icon-blue {
-  color: #0077b6;
-}
-
-.icon-title {
-  font-size: 30px;
-  color: #999;
-  transition: color 0.2s ease;
-}
-
-.icon-title:hover {
-  color: #555;
-}
-
 /* ===============================
-   Name Highlight
+   Responsive
 ================================= */
-.my-name {
-  color: #ff7043;  /* 默认橙色 */
-  display: inline-block;
-  transition: transform 0.3s ease, text-shadow 0.3s ease;
-}
+@media (max-width: 768px) {
+  .home-page .hero-banner {
+    min-height: 260px;
+  }
 
-.pub-item:hover .my-name {
-  transform: scale(1.00);
- // text-shadow: 0 0 4px rgba(255,112,67,0.4);
-}
+  .home-page .hero-overlay {
+    width: calc(100% - 1.2rem);
+    margin: 0 0 0.6rem 0.6rem;
+    padding: 0.95rem 1rem;
+  }
 
-/* ===============================
-   Keyword Highlight in Intro Block
-================================= */
-.highlight-key {
-  color: #ff7043;  /* 默认橙色 */
-  display: inline-block;
-  transition: transform 0.3s ease, text-shadow 0.3s ease;
-}
+  .home-page .hero-text {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
 
-.intro-block {
-  padding: 16px 20px;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
-}
+  .home-page table td {
+    padding: 7px 8px;
+  }
 
-.intro-block:hover {
-  background-color: #f5f5f5;
-}
-
-.intro-block:hover .highlight-key {
-  transform: scale(1.00);
-//  text-shadow: 0 0 4px rgba(255,112,67,0.4);
-}
-
-/* ===============================
-   Year Highlight (News / Publications)
-================================= */
-.year-highlight {
-  color: #ff7043;  /* 默认橙色 */
-  display: inline-block;
-  font-weight: 500;
-  transition: transform 0.3s ease, text-shadow 0.3s ease;
-}
-
-.news-item:hover .year-highlight,
-.pub-item:hover .year-highlight {
-  transform: scale(1.00);
-//  text-shadow: 0 0 4px rgba(255,112,67,0.4);
-}
-
-/* ===============================
-   Hover Blocks (News / Pubs)
-================================= */
-.news-item,
-.pub-item {
-  transition: background-color 0.3s ease;
-  padding: 8px 10px;
-  border-radius: 6px;
-}
-
-.news-item:hover,
-.pub-item:hover {
-  background-color: #f5f5f5;
-}
-
-/* ===============================
-   Table Styles
-================================= */
-table.table-flat,
-table.table-hover,
-table td,
-table tr {
-  border: none !important;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-table.table-flat,
-table.table-hover {
-  font-size: 17px;
-}
-
-.table-hover tr:hover {
-  background-color: #f5f5f5;
-  transition: background-color 0.3s ease;
-}
-
-table td {
-  padding: 6px 12px;
-  vertical-align: top;
+  .home-page .news-table td:first-child,
+  .home-page .meta-table td:first-child,
+  .home-page .service-table td:first-child,
+  .home-page .pub-table td:first-child {
+    width: 24%;
+  }
 }
