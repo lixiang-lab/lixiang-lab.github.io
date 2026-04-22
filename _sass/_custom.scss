@@ -1,81 +1,87 @@
 :root {
   --site-red: rgb(255, 128, 128);
   --site-blue: rgb(88, 182, 233);
-  --text-main: #253140;
-  --text-soft: #6b7280;
-  --card-bg: rgba(255, 255, 255, 0.84);
-  --card-border: rgba(88, 182, 233, 0.28);
-  --card-shadow: 0 12px 30px rgba(20, 40, 70, 0.08);
+  --text-main: #243140;
+  --text-soft: #667085;
+  --line-soft: rgba(88, 182, 233, 0.18);
+  --card-bg: rgba(255, 255, 255, 0.88);
+  --card-border: rgba(88, 182, 233, 0.22);
+  --card-shadow: 0 12px 28px rgba(25, 45, 75, 0.07);
 }
 
 /* ===============================
-   Homepage Wrapper
+   Main Content
 ================================= */
-.home-page {
+.page__content {
   color: var(--text-main);
   font-size: 16.5px;
+  line-height: 1.8;
+}
+
+/* ===============================
+   Links
+================================= */
+.page__content a {
+  color: var(--site-blue) !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.page__content a:hover {
+  color: var(--site-blue) !important;
+  border-bottom-color: currentColor;
 }
 
 /* ===============================
    Hero Banner
 ================================= */
-.home-page .hero-banner {
-  position: relative;
-  min-height: 330px;
+.hero-banner {
+  min-height: 340px;
   margin: 0 0 2rem 0;
   border-radius: 18px;
   overflow: hidden;
-  background:
-    linear-gradient(rgba(20, 30, 45, 0.18), rgba(20, 30, 45, 0.28)),
-    url("/images/home-bg.jpg") center center / cover no-repeat;
-  box-shadow: var(--card-shadow);
   display: flex;
   align-items: flex-end;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: var(--card-shadow);
 }
 
-.home-page .hero-overlay {
+.hero-overlay {
   width: min(920px, calc(100% - 2rem));
   margin: 0 0 1.2rem 1.2rem;
   padding: 1.15rem 1.35rem;
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.84);
   border: 1px solid var(--card-border);
   border-radius: 16px;
   backdrop-filter: blur(8px);
 }
 
-.home-page .hero-kicker {
-  margin: 0 0 0.45rem 0;
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--site-blue);
-}
-
-.home-page .hero-text {
-  margin: 0 0 0.55rem 0;
-  line-height: 1.8;
+.hero-text {
+  margin: 0 0 0.6rem 0;
   font-size: 1.05rem;
+  line-height: 1.85;
 }
 
-.home-page .hero-text:last-child {
+.hero-text:last-child {
   margin-bottom: 0;
 }
 
 /* ===============================
    Section Titles
 ================================= */
-.home-page h2.section-title {
+h2.section-title {
   margin-top: 2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.85rem;
   padding-bottom: 0.35rem;
-  font-size: 1.6rem;
+  font-size: 1.58rem;
   font-weight: 700;
-  border-bottom: 2px solid rgba(88, 182, 233, 0.16);
   color: var(--text-main);
+  border-bottom: 2px solid var(--line-soft);
 }
 
-.home-page h2.section-title ion-icon {
+h2.section-title ion-icon {
   font-size: 28px;
   color: var(--site-blue);
   vertical-align: -4px;
@@ -83,15 +89,15 @@
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.home-page h2.section-title ion-icon:hover {
-  transform: scale(1.06);
+h2.section-title ion-icon:hover {
+  transform: scale(1.05);
   color: var(--site-red);
 }
 
 /* ===============================
-   Section Cards
+   Section Card
 ================================= */
-.home-page .section-card {
+.section-card {
   margin-bottom: 1.2rem;
   padding: 0.8rem 1rem;
   background: var(--card-bg);
@@ -101,139 +107,115 @@
   backdrop-filter: blur(6px);
 }
 
-.home-page .subsection-label {
-  margin: 0.2rem 0 0.4rem 0;
+.subsection-label {
+  margin: 0.2rem 0 0.45rem 0;
   font-size: 1rem;
   font-weight: 700;
   color: var(--text-main);
 }
 
 /* ===============================
-   Link Styles
+   Highlights
 ================================= */
-.home-page a {
-  font-weight: 400;
-  color: var(--site-blue);
-  text-decoration: none;
-  position: relative;
-  transition: color 0.25s ease;
-}
-
-.home-page a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 1px;
-  background: currentColor;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.25s ease;
-}
-
-.home-page a:hover {
-  color: var(--site-blue);
-}
-
-.home-page a:hover::after {
-  transform: scaleX(1);
+.name-highlight,
+.key-highlight {
+  color: var(--site-red) !important;
+  font-weight: 600;
 }
 
 /* ===============================
-   Highlight Styles
+   Dates
 ================================= */
-.home-page .highlight-key,
-.home-page .my-name,
-.home-page .year-highlight {
-  color: var(--site-red);
-  font-weight: 600;
+.date-text {
+  color: var(--text-soft) !important;
+  font-weight: 500;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 /* ===============================
    Tables
 ================================= */
-.home-page table,
-.home-page table td,
-.home-page table tr {
+table.table-clean,
+table.table-clean tr,
+table.table-clean td {
   border: none !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
   background: transparent !important;
 }
 
-.home-page table.table-clean,
-.home-page table.table-hover {
+table.table-clean {
   width: 100%;
   font-size: 16.5px;
 }
 
-.home-page table td {
+table.table-clean td {
   padding: 8px 12px;
   vertical-align: top;
 }
 
-.home-page .news-table td:first-child,
-.home-page .meta-table td:first-child,
-.home-page .service-table td:first-child {
-  width: 18%;
+.news-table td:first-child,
+.meta-table td:first-child {
+  width: 170px;
+  white-space: nowrap;
 }
 
-.home-page .pub-table td:first-child {
-  width: 14%;
+.pub-table td:first-child {
+  width: 95px;
+  white-space: nowrap;
+}
+
+.service-table td:first-child {
+  width: 120px;
+  white-space: nowrap;
 }
 
 /* ===============================
-   Hover Rows
+   Row Hover
 ================================= */
-.home-page .news-item,
-.home-page .pub-item {
-  transition: background-color 0.25s ease;
+.entry-row {
+  transition: background-color 0.22s ease;
   border-radius: 10px;
 }
 
-.home-page .news-item:hover,
-.home-page .pub-item:hover {
-  background-color: rgba(88, 182, 233, 0.08) !important;
-}
-
-/* ===============================
-   Utility Icons
-================================= */
-.home-page .icon-inline {
-  font-size: 16px;
-  color: var(--site-blue);
-  margin-right: 6px;
-  vertical-align: text-bottom;
+.entry-row:hover {
+  background-color: rgba(88, 182, 233, 0.06) !important;
 }
 
 /* ===============================
    Responsive
 ================================= */
 @media (max-width: 768px) {
-  .home-page .hero-banner {
+  .hero-banner {
     min-height: 260px;
   }
 
-  .home-page .hero-overlay {
+  .hero-overlay {
     width: calc(100% - 1.2rem);
-    margin: 0 0 0.6rem 0.6rem;
+    margin: 0 0 0.65rem 0.6rem;
     padding: 0.95rem 1rem;
   }
 
-  .home-page .hero-text {
+  .hero-text {
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.75;
   }
 
-  .home-page table td {
+  table.table-clean td {
     padding: 7px 8px;
   }
 
-  .home-page .news-table td:first-child,
-  .home-page .meta-table td:first-child,
-  .home-page .service-table td:first-child,
-  .home-page .pub-table td:first-child {
-    width: 24%;
+  .news-table td:first-child,
+  .meta-table td:first-child {
+    width: 145px;
+  }
+
+  .pub-table td:first-child {
+    width: 82px;
+  }
+
+  .service-table td:first-child {
+    width: 95px;
   }
 }
