@@ -5,12 +5,12 @@
   --text-soft: #667085;
   --line-soft: rgba(88, 182, 233, 0.16);
   --card-bg: #ffffff;
-  --card-border: rgba(36, 49, 64, 0.08);
+  --card-border: rgba(36, 49, 64, 0.07);
   --card-shadow: 0 10px 24px rgba(20, 40, 70, 0.06);
 }
 
 /* ===============================
-   Page background
+   Global page background
 ================================= */
 body {
   background: #f5f7fb;
@@ -25,34 +25,67 @@ body {
 
 /* ===============================
    Main content shell
-   只让正文区域有背景图，不铺满整页
+   只在正文区域显示背景，不铺满整页
+   双层背景：
+   1) 底层 cover + blur：负责边缘填充
+   2) 上层 contain：尽量显示整张竖图
 ================================= */
 .home-shell {
   position: relative;
-  overflow: hidden;
-  border-radius: 24px;
   padding: 1.4rem;
   margin-bottom: 1rem;
   isolation: isolate;
+  overflow: hidden;
+  background: transparent;
 }
 
 .home-shell::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/images/home-bg.jpg") center center / cover no-repeat;
-  opacity: 0.28;
-  filter: blur(2px);
-  transform: scale(1.04);
-  z-index: -2;
+  background: url("/images/home-bg.jpg") center top / contain no-repeat;
+  opacity: 0.23;
+  filter: saturate(0.95) blur(0.5px);
+  z-index: -1;
+  pointer-events: none;
+
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 1) 54%,
+    rgba(0, 0, 0, 0.88) 72%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 1) 54%,
+    rgba(0, 0, 0, 0.88) 72%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .home-shell::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.04);
-  z-index: -1;
+  background: url("/images/home-bg.jpg") center top / cover no-repeat;
+  opacity: 0.10;
+  filter: blur(18px) saturate(0.9);
+  transform: scale(1.05);
+  z-index: -2;
+  pointer-events: none;
+
+  -webkit-mask-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.92) 38%,
+    rgba(0, 0, 0, 0.45) 74%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.92) 38%,
+    rgba(0, 0, 0, 0.45) 74%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 /* ===============================
@@ -255,7 +288,6 @@ table.table-clean td {
 @media (max-width: 768px) {
   .home-shell {
     padding: 1rem;
-    border-radius: 18px;
   }
 
   .intro-card {
