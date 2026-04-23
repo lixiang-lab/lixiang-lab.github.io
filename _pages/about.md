@@ -10,12 +10,12 @@ classes: wide
 
   <div class="intro-card">
     <p class="intro-text">
-      I am a fourth-year Ph.D. student in the School of Electronic Science and Engineering at
-      <span class="name-highlight">Nanjing University</span>, advised by
-      <a href="https://changqiong.github.io/">Prof. Qiong Chang</a>,
-      <a href="https://www.yunligroup.org/">Prof. Yun Li</a>, and
-      <a href="https://www.lsc.c.titech.ac.jp/miyazaki">Prof. Jun Miyazaki</a>.
-      I received my B.Eng. degree from Nanchang University.
+I am a fourth-year direct-entry Ph.D. student in the School of Electronic Science and Engineering at
+<span class="name-highlight">Nanjing University</span>, advised by
+<a href="https://www.yunligroup.org/">Prof. Yun Li</a>. I am also supervised by
+<a href="https://changqiong.github.io/">Prof. Qiong Chang</a> at Institute of Science Tokyo, and jointly supervised by
+<a href="https://www.lsc.c.titech.ac.jp/miyazaki">Prof. Jun Miyazaki</a>.
+I received my B.Eng. degree from Nanchang University.
     </p>
 
     <p class="intro-text">
