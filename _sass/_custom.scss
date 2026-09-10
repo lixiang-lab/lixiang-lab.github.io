@@ -107,18 +107,28 @@ body {
 /* ===============================
    Section Titles
 ================================= */
+.page__title {
+  font-size: 1.22rem;
+  line-height: 1.15;
+}
+
 h2.section-title {
   margin-top: 2rem;
   margin-bottom: 0.9rem;
   padding-bottom: 0.35rem;
-  font-size: 1.58rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--text-main);
   border-bottom: 2px solid var(--line-soft);
 }
 
+.home-shell h2.section-title {
+  margin-top: 1.45rem;
+  margin-bottom: 0.55rem;
+}
+
 h2.section-title ion-icon {
-  font-size: 28px;
+  font-size: 21px;
   color: var(--site-blue);
   vertical-align: -4px;
   margin-right: 6px;
@@ -147,6 +157,82 @@ h2.section-title ion-icon:hover {
   font-size: 1rem;
   font-weight: 700;
   color: var(--text-main);
+}
+
+/* ===============================
+   Publications
+================================= */
+@include breakpoint($large) {
+  .page.publication-wide {
+    padding-right: 0;
+  }
+}
+
+.pub-list {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pub-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.pub-item:last-child {
+  border-bottom: 0;
+}
+
+.pub-title-line {
+  display: grid;
+  grid-template-columns: 4.8rem minmax(0, 1fr);
+  align-items: start;
+  column-gap: 0.85rem;
+}
+
+.pub-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  min-width: 3rem;
+  min-height: 1.55rem;
+  padding: 0.22rem 0.45rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--site-blue) 0%, 60%, var(--site-red) 100%);
+  border: 0;
+  border-radius: 6px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.page__content a.pub-title {
+  color: var(--text-main) !important;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.page__content a.pub-title:hover {
+  color: var(--site-blue) !important;
+}
+
+.pub-authors,
+.pub-meta {
+  margin: 0.32rem 0 0 5.65rem;
+  line-height: 1.55;
+}
+
+.pub-meta {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+.pub-link {
+  margin-left: 0.45rem;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 /* ===============================
@@ -208,7 +294,7 @@ table.table-clean {
 }
 
 table.table-clean td {
-  padding: 8px 12px;
+  padding: 4px 12px;
   vertical-align: top;
 }
 
@@ -317,7 +403,7 @@ table.table-clean td {
   }
 
   table.table-clean td {
-    padding: 7px 8px;
+    padding: 4px 8px;
   }
 
   .news-table td:first-child,
@@ -334,10 +420,29 @@ table.table-clean td {
   }
 
   h2.section-title {
-    font-size: 1.42rem;
+    font-size: 1.15rem;
   }
 
   h2.section-title ion-icon {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .page__title {
+    font-size: 1.15rem;
+  }
+
+  .pub-title-line {
+    grid-template-columns: 1fr;
+    row-gap: 0.7rem;
+  }
+
+  .pub-badge {
+    width: fit-content;
+  }
+
+  .page__content a.pub-title,
+  .pub-authors,
+  .pub-meta {
+    margin-left: 1rem;
   }
 }
