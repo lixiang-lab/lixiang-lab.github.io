@@ -31,7 +31,7 @@ I received my B.Eng. degree from Nanchang University.
         <td>
           <ion-icon name="document-text-outline" class="item-icon icon-gray"></ion-icon>
           A paper “An Embedded GPU Execution Framework for Rectangular Window-Based Local Aggregation”
-          is accepted for publication in <a href="https://dl.acm.org/journal/taco">ACM TACO</a>.
+          is accepted for publication in <a href="https://dl.acm.org/journal/taco">TACO</a>.
         </td>
       </tr>
       <tr class="entry-row">
