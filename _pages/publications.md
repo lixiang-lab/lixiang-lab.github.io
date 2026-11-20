@@ -10,6 +10,40 @@ classes: publication-wide
 
 <div class="section-card pub-list">
 
+
+  <!-- TACO 2026 (In Press) -->
+  <div class="pub-item">
+    <div class="pub-title-line">
+      <span class="pub-badge">TACO</span>
+      <span class="pub-title">
+        An Embedded GPU Execution Framework for Rectangular Window-Based Local Aggregation
+      </span>
+    </div>
+
+    <div class="pub-authors">
+      <strong>Xiang Li</strong>, Qiong Chang, Ziyang Yu, Yun Li, Jun Miyazaki
+    </div>
+
+    <div class="pub-meta">
+      <span class="pub-dot">•</span>
+      ACM Transactions on Architecture and Code Optimization (TACO), 2026, In Press, CCF A
+      <a class="pub-link" href="#"
+         onclick="copyBib(event, 'bib-taco26', this)">Bib</a>
+    </div>
+
+    <pre class="bibtex" id="bib-taco26" hidden>
+@article{li2026nestagg,
+  author    = {Li, Xiang and Chang, Qiong and Yu, Ziyang and Li, Yun and Miyazaki, Jun},
+  title     = {An Embedded GPU Execution Framework for Rectangular Window-Based Local Aggregation},
+  journal   = {ACM Transactions on Architecture and Code Optimization},
+  year      = {2026},
+  note      = {In Press},
+  publisher = {Association for Computing Machinery}
+}
+    </pre>
+  </div>
+
+
   <!-- TACO 2025 -->
   <div class="pub-item">
     <div class="pub-title-line">
