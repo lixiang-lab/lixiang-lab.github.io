@@ -27,6 +27,14 @@ I received my B.Eng. degree from Nanchang University.
   <div class="section-card">
     <table class="table-clean news-table">
       <tr class="entry-row">
+        <td><span class="date-text">Nov 2026</span></td>
+        <td>
+          <ion-icon name="document-text-outline" class="item-icon icon-gray"></ion-icon>
+          A paper “An Embedded GPU Execution Framework for Rectangular Window-Based Local Aggregation”
+          is accepted for publication in <a href="https://dl.acm.org/journal/taco">ACM TACO</a>.
+        </td>
+      </tr>
+      <tr class="entry-row">
         <td><span class="date-text">Oct 2025</span></td>
         <td>
           <ion-icon name="airplane-outline" class="item-icon icon-blue"></ion-icon>
