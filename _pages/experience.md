@@ -47,7 +47,7 @@ classes: experience-wide
         <td><span class="date-text">2025.10–Present</span></td>
         <td>
           <div class="institution-entry">
-            <div><strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.</div>
+            <div><strong>Visiting Junior Fellow</strong>, School of Computing, Institute of Science Tokyo, Japan.</div>
             <a class="institution-logo-link" href="https://www.isct.ac.jp/en" aria-label="Institute of Science Tokyo official website">
               <span class="institution-mark">
                 <img src="/images/institutions/science-tokyo.png" alt="Institute of Science Tokyo logo">
@@ -60,7 +60,7 @@ classes: experience-wide
         <td><span class="date-text">2025.2–2025.4</span></td>
         <td>
           <div class="institution-entry">
-            <div><strong>Visiting Junior Fellow</strong>, Department of Computer Science, School of Computing, Institute of Science Tokyo, Japan.</div>
+            <div><strong>Visiting Junior Fellow</strong>, School of Computing, Institute of Science Tokyo, Japan.</div>
             <a class="institution-logo-link" href="https://www.isct.ac.jp/en" aria-label="Institute of Science Tokyo official website">
               <span class="institution-mark">
                 <img src="/images/institutions/science-tokyo.png" alt="Institute of Science Tokyo logo">
