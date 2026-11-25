@@ -1,9 +1,12 @@
 :root {
+  --global-text-color: #000000;
+  --global-text-color-light: #000000;
+  --global-masthead-link-color: #000000;
   --site-red: rgb(255, 128, 128);
   --site-blue: rgb(88, 182, 233);
 
-  --text-main: #243140;
-  --text-soft: #667085;
+  --text-main: #000000;
+  --text-soft: #000000;
   --line-soft: rgba(88, 182, 233, 0.18);
 
   --card-bg: #ffffff;
@@ -247,7 +250,13 @@ h2.section-title ion-icon:hover {
 /* ===============================
    Date / Role
 ================================= */
-.date-text,
+.date-text {
+  color: #000 !important;
+  font-weight: 400;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
 .role-text {
   color: var(--text-soft) !important;
   font-weight: 500;
@@ -296,6 +305,10 @@ table.table-clean {
 table.table-clean td {
   padding: 4px 12px;
   vertical-align: top;
+}
+
+table.table-clean .entry-row:not(:last-child) td {
+  border-bottom: 1px solid var(--card-border) !important;
 }
 
 /* 日期列固定单行 */

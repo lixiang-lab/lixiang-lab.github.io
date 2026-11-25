@@ -34,6 +34,10 @@ classes: wide
         <td><span class="role-text">Reviewer</span></td>
         <td>The Journal of Supercomputing (<a href="https://link.springer.com/journal/11227">TJSC</a>)</td>
       </tr>
+      <tr class="entry-row">
+        <td><span class="role-text">Reviewer</span></td>
+        <td><a href="https://link.springer.com/journal/530">Multimedia Systems</a></td>
+      </tr>
     </table>
   </div>
 
