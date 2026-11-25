@@ -166,7 +166,8 @@ h2.section-title ion-icon:hover {
    Publications
 ================================= */
 @include breakpoint($large) {
-  .page.publication-wide {
+  .page.publication-wide,
+  .page.experience-wide {
     padding-right: 0;
   }
 }
@@ -299,6 +300,7 @@ table.table-clean td {
 
 table.table-clean {
   width: 100%;
+  margin-bottom: 0;
   font-size: 16.5px;
 }
 
@@ -309,6 +311,46 @@ table.table-clean td {
 
 table.table-clean .entry-row:not(:last-child) td {
   border-bottom: 1px solid var(--card-border) !important;
+}
+
+.institution-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 11.25rem;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.page__content a.institution-logo-link,
+.page__content a.institution-logo-link:hover {
+  display: block;
+  justify-self: end;
+  border-bottom: 0;
+  line-height: 0;
+}
+
+.institution-mark {
+  display: flex;
+  width: 11.25rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.institution-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.page__content a.institution-logo-link img,
+.page__content a.institution-logo-link:hover img {
+  box-shadow: none !important;
+}
+
+.institution-logo-link:hover .institution-mark {
+  transform: translateY(-1px) scale(1.04);
 }
 
 /* 日期列固定单行 */
@@ -417,6 +459,16 @@ table.table-clean .entry-row:not(:last-child) td {
 
   table.table-clean td {
     padding: 4px 8px;
+  }
+
+  .institution-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.45rem;
+  }
+
+  .institution-mark {
+    width: 8.5rem;
+    height: 2.4rem;
   }
 
   .news-table td:first-child,
